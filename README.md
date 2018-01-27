@@ -4,7 +4,7 @@ Github repo for organizing speakers/resources for Accessibility Talks
 Link to YouTube channel: https://www.youtube.com/channel/UC__nH6oZrFXcUevljYJKbsw
 
 ## Week 1
-- [ ] Confirm the event details with the speaker. Make sure you translate the event time to the speaker's time zone, so there is no miscommunication.
+- [ ] Confirm the event details with the speaker. Make sure the time of the event is translated to the speaker's time zone, so there is no miscommunication.
 - [ ] Create new Zoom meet-up for the event. You will need this URL for the flyer and event creation. Make sure you double check the meeting settings!
 - [ ] Create flyer for current month's speaker. Have it reviewed by the speaker and at least one other person. More eyes, the better.
 - [ ] Create a Drupal event.
