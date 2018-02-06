@@ -43,4 +43,4 @@ Link to YouTube channel: https://www.youtube.com/channel/UC__nH6oZrFXcUevljYJKbs
 - [ ] Promote the video series as a whole. Remind people that if they subscribe to the channel, they will get notices automatically (ie. when a new video is up, or info on the next event, etc).
 - [ ] Try to get 100 YouTube subscribers. If that happens, the URL can be changed to something more user friendly. Currently it is just a long string of randomness.
 - [ ] Find additional places to add the event, to reach more people.
-- [ ] Work on captions/transcripts of older videos.
+- [ ] Work on captions/transcripts of older videos. Places for help transcribing: https://www.rev.com/, https://www.happyscribe.co/, https://www.temi.com/
