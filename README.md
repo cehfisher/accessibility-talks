@@ -1,7 +1,7 @@
 # Accessibility Talks
 Github repo for organizing speakers/resources for Accessibility Talks
 
-Link to YouTube channel: https://www.youtube.com/channel/UC__nH6oZrFXcUevljYJKbsw
+Link to YouTube channel: https://www.youtube.com/c/AccessibilityTalks
 
 ## Week 1
 - [ ] Confirm the event details with the speaker. Make sure the time of the event is translated to the speaker's time zone, so there is no miscommunication.
