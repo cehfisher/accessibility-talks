@@ -104,6 +104,7 @@
     "eslint-plugin-jsx-a11y": "6.3.1",
     "eslint-plugin-react": "7.20.3",
     "eslint-watch": "7.0.0",
+    "favicons-webpack-plugin": "^4.2.0",
     "flow-bin": "^0.129.0",
     "flow-typed": "^3.2.0",
     "gh-pages": "3.1.0",
