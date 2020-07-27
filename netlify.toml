@@ -1,4 +1,3 @@
 [build]
-  base = "a11ytalks/"
   publish = "public/"
   command = "gatsby build"
