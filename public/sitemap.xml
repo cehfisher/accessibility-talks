@@ -3,12 +3,12 @@
 <url> <loc>https://lumen.netlify.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/perfecting-the-art-of-perfection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/a-brief-history-of-typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/the-origins-of-social-stationery-lettering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/posts/a-brief-history-of-typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/humane-typography-in-the-digital-age</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/posts/the-birth-of-movable-type</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://lumen.netlify.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tag/design</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tag/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://lumen.netlify.com/tag/handwriting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
