@@ -10,11 +10,11 @@ const useSiteMetadata = () => {
             author {
               name
               photo
+              bio
               contacts {
                 linkedin
                 github
                 twitter
-                email
                 rss
                 codepen
                 youtube

@@ -10,7 +10,7 @@ tags:
   - "Typography"
   - "Web Development"
 description: "Building a new site for A11yTalks"
-socialImage: "/media/image-4.jpg"
+socialImage: "/media/coming-soon.jpeg"
 ---
 
 More info coming soon!

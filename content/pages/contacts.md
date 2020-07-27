@@ -1,7 +1,7 @@
 ---
 title: "Contact me"
 template: "page"
-socialImage: "/media/image-4.jpg"
+socialImage: "/media/coming-soon.jpeg"
 ---
 
-Coming soon!
+Online form coming soon! In the meantime, reach out to us on Twitter or email us.

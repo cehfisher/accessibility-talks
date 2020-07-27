@@ -4,37 +4,37 @@ module.exports = {
   url: 'https://a11ytalks.com',
   pathPrefix: '/',
   title: 'A11yTalks',
-  subtitle: 'Virtual monthly meet-up where we discuss accessibility and inclusion.',
-  copyright: '© All rights reserved.',
+  subtitle: 'Virtual monthly meet-up group that features speakers and conversations around the topic of digital accessibility.',
+  copyright: '© 2020 All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 5,
+  postsPerPage: 3,
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Events',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
+      label: 'Contact',
       path: '/pages/contacts'
     }
   ],
   author: {
     name: 'A11yTalks',
-    photo: '/logo.jpg',
+    photo: '/photo.png',
+    bio: 'Virtual monthly meet-up group that features speakers and conversations around the topic of digital accessibility.',
     contacts: {
-      email: 'accessibilitytalks@gmail.com',
+      email: '',
+      youtube: 'accessibilitytalks',
       twitter: 'A11YTalks',
       github: 'cehfisher/accessibility-talks',
       rss: '',
-      vkontakte: '',
       linkedin: '',
       codepen: '',
-      youtube: 'https://youtube.com/c/accessibilitytalks',
     }
   }
 };

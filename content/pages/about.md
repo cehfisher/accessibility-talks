@@ -1,7 +1,7 @@
 ---
 title: "About A11yTalks"
 template: "page"
-socialImage: "/media/image-4.jpg"
+socialImage: "/media/coming-soon.jpeg"
 ---
 
 ##About A11yTalks
@@ -22,7 +22,5 @@ socialImage: "/media/image-4.jpg"
 - Headshot/avatar image of yourself
 - Pronouns
 - Twitter, LinkedIn, or other way people can easily contact you directly
- 
-Again, thank you so much for considering speaking to our group! Please let us know if you have any additional questions at this time.
  
 The A11yTalks Team - Carie, Donna, AmyJune

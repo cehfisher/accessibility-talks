@@ -2,6 +2,7 @@
 import getContactHref from './get-contact-href';
 
 test('getContactHref', () => {
+  expect(getContactHref('youtube', '#')).toBe('https://www.youtube.com/c/#');
   expect(getContactHref('twitter', '#')).toBe('https://www.twitter.com/#');
   expect(getContactHref('github', '#')).toBe('https://github.com/#');
   expect(getContactHref('email', '#')).toBe('mailto:#');
@@ -15,6 +16,5 @@ test('getContactHref', () => {
   expect(getContactHref('gitlab', '#')).toBe('https://www.gitlab.com/#');
   expect(getContactHref('weibo', '#')).toBe('https://www.weibo.com/#');
   expect(getContactHref('codepen', '#')).toBe('https://www.codepen.io/#');
-  expect(getContactHref('youtube', '#')).toBe('https://www.youtube.com/c/#');
   expect(getContactHref('soundcloud', '#')).toBe('https://soundcloud.com/#');
 });

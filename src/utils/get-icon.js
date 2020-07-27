@@ -5,6 +5,9 @@ const getIcon = (name: string) => {
   let icon;
 
   switch (name) {
+    case 'youtube':
+      icon = ICONS.YOUTUBE;
+      break;
     case 'twitter':
       icon = ICONS.TWITTER;
       break;
@@ -43,9 +46,6 @@ const getIcon = (name: string) => {
       break;
     case 'codepen':
       icon = ICONS.CODEPEN;
-      break;
-    case 'youtube':
-      icon = ICONS.YOUTUBE;
       break;
     case 'soundcloud':
       icon = ICONS.SOUNDCLOUD;

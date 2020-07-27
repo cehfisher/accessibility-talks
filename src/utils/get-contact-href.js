@@ -3,6 +3,9 @@ const getContactHref = (name: string, contact: string) => {
   let href;
 
   switch (name) {
+    case 'youtube':
+      href = `https://www.youtube.com/c/${contact}`;
+      break;
     case 'twitter':
       href = `https://www.twitter.com/${contact}`;
       break;
@@ -38,9 +41,6 @@ const getContactHref = (name: string, contact: string) => {
       break;
     case 'codepen':
       href = `https://www.codepen.io/${contact}`;
-      break;
-    case 'youtube':
-      href = `https://www.youtube.com/channel/${contact}`;
       break;
     case 'soundcloud':
       href = `https://soundcloud.com/${contact}`;
