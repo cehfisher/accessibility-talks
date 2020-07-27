@@ -1,14 +1,13 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://a11ytalks.com',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'A11yTalks',
+  subtitle: 'Virtual monthly meet-up where we discuss accessibility and inclusion.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 5,
   useKatex: false,
   menu: [
     {
@@ -25,25 +24,17 @@ module.exports = {
     }
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'A11yTalks',
+    photo: '/logo.jpg',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'accessibilitytalks@gmail.com',
+      twitter: 'A11YTalks',
+      github: 'cehfisher/accessibility-talks',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
-      line: '',
-      gitlab: '',
-      weibo: '',
+      linkedin: '',
       codepen: '',
-      youtube: '',
-      soundcloud: '',
+      youtube: 'https://youtube.com/c/accessibilitytalks',
     }
   }
 };

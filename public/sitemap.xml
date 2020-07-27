@@ -1,28 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://lumen.netlify.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/perfecting-the-art-of-perfection</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/the-origins-of-social-stationery-lettering</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/a-brief-history-of-typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/humane-typography-in-the-digital-age</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/posts/the-birth-of-movable-type</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/design</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/gatsby</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/handwriting</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/helvetica</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/history-of-typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/learning-to-write</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/linotype</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/monotype</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/open-source</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/tag/web-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/category/design-culture</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/category/design-inspiration</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/category/typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://lumen.netlify.com/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/new-site</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/pages/contacts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/design</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/typography</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/web-development</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/category/website</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
