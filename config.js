@@ -11,7 +11,7 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Home',
+      label: 'All Events',
       path: '/'
     },
     {
@@ -32,7 +32,7 @@ module.exports = {
     photo: '/photo.png',
     bio: 'Virtual monthly meet-up group that features speakers and conversations around the topic of digital accessibility.',
     contacts: {
-      email: '',
+      email: 'accessibilitytalks@gmail.com',
       youtube: 'accessibilitytalks',
       twitter: 'A11YTalks',
       github: 'cehfisher/accessibility-talks',
