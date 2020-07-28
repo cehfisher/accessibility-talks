@@ -11,8 +11,12 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Events',
+      label: 'Home',
       path: '/'
+    },
+    {
+      label: '2020 Events',
+      path: '/tag/2020'
     },
     {
       label: 'About',
