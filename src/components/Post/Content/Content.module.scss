@@ -19,6 +19,9 @@
   }
 
   &__body {
+    margin: 0 auto;
+    text-align: center;
+
     & figure {
       @include margin-bottom(1);
 
