@@ -23,7 +23,7 @@ exports[`Pagination renders correctly 1`] = `
       href="/page/3"
       rel="next"
     >
-      → NEXT
+      NEXT →
     </a>
   </div>
 </div>
