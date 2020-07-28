@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       label: 'Contact',
-      path: '/pages/contacts'
+      path: '/pages/contact'
     }
   ],
   author: {

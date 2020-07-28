@@ -1,7 +1,7 @@
 // @flow strict
 const PAGINATION = {
-  PREV_PAGE: '← PREV',
-  NEXT_PAGE: '→ NEXT'
+  PREV_PAGE: '← Previous',
+  NEXT_PAGE: '→ Next'
 };
 
 export default PAGINATION;

@@ -151,6 +151,23 @@ figcaption {
   padding-right: 14px !important;
 }
 
+iframe {
+  width: 100%;
+  margin-top: 1.625rem;
+  min-width: auto;
+  min-height: 365px;
+  border: 1px solid $color-black;
+}
+
+.Content-module--content__body--2TrQ- {
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
 @include breakpoint-sm {
   figure.float-left,
   figure.float-right {
@@ -165,5 +182,9 @@ figcaption {
   .float-left {
     float: left;
   }
-
+  
+  iframe {
+    min-width: 650px;
+    min-height: 365px;
+  }
 }
