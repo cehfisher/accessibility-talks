@@ -163,6 +163,15 @@ p {
   text-align: left;
 }
 
+.social-image {
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border: 2px solid $color-black;
+  border-radius: 50%;
+}
+
 @include breakpoint-sm {
   figure.float-left,
   figure.float-right {

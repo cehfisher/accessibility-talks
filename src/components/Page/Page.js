@@ -1,4 +1,6 @@
 import React, { useRef, useEffect } from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import styles from './Page.module.scss';
 
 type Props = {

@@ -8,6 +8,7 @@ import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
 import type { PageContext, AllMarkdownRemark } from '../types';
+import Img from "gatsby-image";
 
 type Props = {
   data: AllMarkdownRemark,
@@ -52,22 +53,24 @@ export const query = graphql`
         filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
         sort: { order: DESC, fields: [frontmatter___date] }
       ){
-      edges {
-        node {
-          fields {
-            slug
-            categorySlug
-          }
-          frontmatter {
-            title
-            date
-            category
-            description
-          }
+    edges {
+      node {
+        id
+        fields {
+          slug
+          categorySlug
+        }
+        frontmatter {
+          socialImage
+          title
+          date
+          category
+          description
         }
       }
     }
   }
+}
 `;
 
 export default IndexTemplate;

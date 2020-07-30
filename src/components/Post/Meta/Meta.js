@@ -1,5 +1,7 @@
 // @flow strict
 import React from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import moment from 'moment';
 import styles from './Meta.module.scss';
 

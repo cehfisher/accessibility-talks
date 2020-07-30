@@ -1,5 +1,7 @@
 // @flow strict
 import React from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import moment from 'moment';
 import { Link } from 'gatsby';
 import type { Edges } from '../../types';
@@ -25,8 +27,15 @@ const Feed = ({ edges }: Props) => (
         <h2 className={styles['feed__item-title']}>
           <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
         </h2>
-        <img className={styles['feed__item-image']}>{edge.node.frontmatter.socialImage}</img>
-        <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}</p>
+        <p className={styles['feed__item-description']}>
+          <img
+            src={edge.node.frontmatter.socialImage}
+            className={'social-image'}
+            width="175"
+            height="175"
+            alt=""
+          />
+          {edge.node.frontmatter.description}</p>
         <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read more &#8594;</Link>
       </div>
     ))}

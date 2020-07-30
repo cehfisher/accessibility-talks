@@ -1,6 +1,7 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';

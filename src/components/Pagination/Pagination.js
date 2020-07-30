@@ -1,5 +1,7 @@
 // @flow strict
 import React from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import classNames from 'classnames/bind';
 import { Link } from 'gatsby';
 import { PAGINATION } from '../../constants';

@@ -1,5 +1,7 @@
 // @flow strict
 import type { Node as ReactNode } from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 export type RenderCallback = {
   // $FlowFixMe

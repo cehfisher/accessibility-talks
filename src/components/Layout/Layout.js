@@ -1,5 +1,7 @@
 // @flow strict
 import React from 'react';
+import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';

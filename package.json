@@ -38,6 +38,7 @@
     "disqus"
   ],
   "dependencies": {
+    "@types/react": "^16.9.43",
     "acorn": "^6.4.1",
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
@@ -59,6 +60,7 @@
     "gatsby-plugin-sass": "^2.3.12",
     "gatsby-plugin-sharp": "^2.6.23",
     "gatsby-plugin-sitemap": "^2.4.11",
+    "gatsby-plugin-styled-components": "^3.3.10",
     "gatsby-remark-autolink-headers": "^2.3.11",
     "gatsby-remark-copy-linked-files": "^2.3.12",
     "gatsby-remark-external-links": "0.0.4",
