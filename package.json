@@ -38,8 +38,10 @@
     "disqus"
   ],
   "dependencies": {
+    "2": "^3.0.0",
     "@types/react": "^16.9.43",
     "acorn": "^6.4.1",
+    "babel-plugin-styled-components": "^1.11.1",
     "bluebird": "^3.7.2",
     "classnames": "^2.2.6",
     "codecov": "^3.7.0",
@@ -90,6 +92,7 @@
     "react-refresh": "^0.8.3",
     "redux": "^3.7.2",
     "seamless-immutable": "^7.1.4",
+    "styled-components": "^5.1.1",
     "yarn": "^1.22.4"
   },
   "devDependencies": {

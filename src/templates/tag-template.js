@@ -71,7 +71,15 @@ export const query = graphql`
             date
             category
             description
+            socialImage
           }
+        }
+      }
+    }
+    file(relativePath: {eq: "mike.jpg"}) {
+      childImageSharp {
+        fixed(height: 175, width: 175) {
+          src
         }
       }
     }

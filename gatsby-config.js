@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/static/media`,
+        path: `${__dirname}/src/media`,
         name: 'media'
       }
     },
@@ -53,7 +53,6 @@ module.exports = {
                 site_url: url
                 title
                 description: subtitle
-                socialImage
               }
             }
           }
@@ -64,7 +63,6 @@ module.exports = {
               ...edge.node.frontmatter,
               description: edge.node.frontmatter.description,
               date: edge.node.frontmatter.date,
-              socialImage: edge.node.frontmatter.socialImage,
               url: site.siteMetadata.site_url + edge.node.fields.slug,
               guid: site.siteMetadata.site_url + edge.node.fields.slug,
               custom_elements: [{ 'content:encoded': edge.node.html }]
