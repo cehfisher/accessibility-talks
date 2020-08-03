@@ -52,6 +52,7 @@ module.exports = {
               siteMetadata {
                 site_url: url
                 title
+                subtitle
                 description: subtitle
               }
             }
@@ -83,6 +84,7 @@ module.exports = {
                       }
                       frontmatter {
                         title
+                        subtitle
                         date
                         template
                         draft

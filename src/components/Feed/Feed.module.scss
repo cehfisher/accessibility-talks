@@ -2,6 +2,11 @@
 @import '../../assets/scss/mixins';
 
 .feed {
+  
+  h3 {
+    margin-top: -0.5rem;
+    font-weight: 400;
+  }
 
   &__item {
     clear: both;

@@ -63,6 +63,7 @@ export const query = graphql`
         frontmatter {
           socialImage
           title
+          subtitle
           date
           category
           description

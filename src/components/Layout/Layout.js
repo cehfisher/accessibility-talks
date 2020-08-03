@@ -11,6 +11,7 @@ import styles from './Layout.module.scss';
 type Props = {
   children: ReactNode,
   title: string,
+  subtitle: string,
   description?: string,
   socialImage? :string
 };
@@ -18,6 +19,7 @@ type Props = {
 const Layout = ({
   children,
   title,
+  subtitle,
   description,
   socialImage
 }: Props) => {
