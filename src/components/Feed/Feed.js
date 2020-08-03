@@ -36,7 +36,7 @@ const Feed = ({ edges }: Props) => (
             alt=""
           />
           {edge.node.frontmatter.description}</p>
-        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read more<span class="sr-only"> about {edge.node.frontmatter.title}</span> &#8594;</Link>
+        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read more<span class="sr-only"> about {edge.node.frontmatter.title}</span> &#8594;</Link><hr class="hr-last" />
       </div>
     ))}
   </div>

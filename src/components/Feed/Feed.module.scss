@@ -4,10 +4,18 @@
 .feed {
 
   &__item {
-    @include margin-bottom(1.25);
+    clear: both;
+
+    hr {
+      clear: both;
+    }
 
     &:last-child {
       @include margin-bottom(.5);
+
+        & hr {
+          display: none !important;
+        }
     }
 
     &-title {
