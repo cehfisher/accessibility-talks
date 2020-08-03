@@ -1,6 +1,21 @@
 /** 
  * Generic
  */
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+.ytp-chrome-top,
+.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar {
+  background: $color-black !important;
+}
+
 html {
   font-size: $typographic-root-font-size;
 }
