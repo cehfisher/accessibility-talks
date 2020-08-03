@@ -5,6 +5,7 @@ import styles from './Page.module.scss';
 
 type Props = {
   title?: string,
+  subtitle?: string,
   children: React.Node
 };
 

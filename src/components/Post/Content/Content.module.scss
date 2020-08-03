@@ -18,6 +18,18 @@
     @include margin-bottom(0)
   }
 
+  &__subtitle {
+    font-size: $typographic-base-font-size * 1;
+    max-width: $layout-post-width;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 600;
+    text-align: center;
+    @include line-height(1);
+    @include margin-top(.5);
+    @include margin-bottom(0)
+  }
+
   &__body {
     margin: 0 auto;
     text-align: center;
@@ -69,7 +81,15 @@
       font-size: $typographic-base-font-size * 3;
       @include line-height(2.25);
       @include margin-top(2.25);
-      @include margin-bottom(1.5)
+      @include margin-bottom(1)
+    }
+
+    &__subtitle {
+      font-size: $typographic-base-font-size * 1.5;
+      @include line-height(1.25);
+      @include margin-top(1.25);
+      @include margin-bottom(1)
+      font-style: italic;
     }
 
     &__body {
