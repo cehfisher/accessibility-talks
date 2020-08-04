@@ -33,6 +33,7 @@
   &__body {
     margin: 0 auto;
     text-align: center;
+    word-break: break-all;
 
     & figure {
       @include margin-bottom(1);
