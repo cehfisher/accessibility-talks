@@ -17,7 +17,7 @@ const useSiteMetadata = () => {
                 twitter
                 github
                 rss
-                codepen
+                paypal
               }
             }
             menu {

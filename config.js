@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://a11ytalks.com',
   pathPrefix: '/',
   title: 'A11yTalks',
-  subtitle: 'Virtual monthly meet-up group that features speakers and conversations around the topic of digital accessibility.',
+  subtitle: 'Virtual monthly meet-up group that features speakers & conversations around the topic of digital accessibility.',
   copyright: '© 2020 All rights reserved.',
   disqusShortname: '',
   postsPerPage: 3,
@@ -15,12 +15,28 @@ module.exports = {
       path: '/'
     },
     {
-      label: '2020 Events',
+      label: '2020',
       path: '/tag/2020'
+    },
+    {
+      label: '2019',
+      path: '/tag/2019'
+    },
+    {
+      label: 'All Tags',
+      path: '/tags'
     },
     {
       label: 'About',
       path: '/pages/about'
+    },
+    {
+      label: 'Accessibility',
+      path: '/pages/accessibility'
+    },
+    {
+      label: 'Code of Conduct',
+      path: '/pages/conduct'
     },
     {
       label: 'Contact',
@@ -38,7 +54,7 @@ module.exports = {
       github: 'cehfisher/accessibility-talks',
       rss: '',
       linkedin: '',
-      codepen: '',
+      paypal: 'cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E8BMJDKKNFURE&source=url',
     }
   }
 };
