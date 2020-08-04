@@ -213,4 +213,8 @@ p {
   hr {
     background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #fff 11px, #fff 15px, transparent 15px, transparent 26px);
   }
+
+  .social-image {
+    border: 2px solid $color-gray;
+  }
 }
