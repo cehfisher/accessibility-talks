@@ -23,7 +23,7 @@ module.exports = {
       path: '/tag/2019'
     },
     {
-      label: 'All Tags',
+      label: 'Tags',
       path: '/tags'
     },
     {
