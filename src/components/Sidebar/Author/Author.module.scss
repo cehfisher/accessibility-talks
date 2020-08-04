@@ -37,4 +37,19 @@
     font-size: 0.9rem;
   }
 
+  @media (prefers-color-scheme: dark) {
+    &__title-link {
+      color: $color-gray-border;
+
+      &:hover,
+      &:focus {
+        color: $color-primary;
+      }
+    }
+
+    &__subtitle {
+      color: $color-white;
+    }
+  }
+
 }

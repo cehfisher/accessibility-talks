@@ -41,4 +41,10 @@
 
   }
 
+  @media (prefers-color-scheme: dark) {
+    &__list-item-link {
+      color: $color-white;
+    }
+  }
+
 }

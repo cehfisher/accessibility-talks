@@ -202,3 +202,15 @@ p {
     min-height: 365px;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+
+  body {
+    background: $color-black;
+    color: $color-white;
+  }
+
+  hr {
+    background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #fff 11px, #fff 15px, transparent 15px, transparent 26px);
+  }
+}

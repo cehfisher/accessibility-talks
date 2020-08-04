@@ -145,4 +145,19 @@
     }
   }
 
+  @media (prefers-color-scheme: dark) { 
+    &__item-title-link {
+      color: $color-gray-border;
+
+      &:hover,
+      &:focus {
+        color: $color-primary;
+      }
+    }
+
+    &__item-meta-time {
+      color: $color-white;
+    }
+  }
+
 }

@@ -71,6 +71,12 @@
 
   }
 
+  @media (prefers-color-scheme: dark) { 
+    &__title {
+      color: $color-gray-border;
+    }
+  }
+
 }
 
 @include breakpoint-md {

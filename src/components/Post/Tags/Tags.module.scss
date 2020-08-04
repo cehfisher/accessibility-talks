@@ -34,4 +34,16 @@
 
   }
 
+  @media (prefers-color-scheme: dark) { 
+    &__list-item-link {
+      color: $color-primary;
+
+      &:hover,
+      &:focus {
+        background: $color-primary;
+        color: $color-white;
+      }
+    }
+  }
+
 }
