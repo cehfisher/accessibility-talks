@@ -4,7 +4,7 @@ template: "page"
 ---
 
 ##About A11yTalks
-- A11yTalks was started in May 2017 by <a target="_blank" href="https://twitter.com/cariefisher">Carie Fisher</a> to help bridge the gap between developers and accessibility professionals. Not long after, <a target="_blank" href="https://twitter.com/dbungard">Donna Bungard</a> and <a target="_blank" href="https://twitter.com/volkswagenchick">AmyJune Hineline</a> joined the team!
+- A11yTalks was started in May 2017 by <a target="_blank" href="https://twitter.com/cariefisher">Carie Fisher</a> to help bridge the gap between developers and accessibility professionals. Not long after, <a target="_blank" href="https://twitter.com/dbungard">Donna Bungard</a> and <a target="_blank" href="https://twitter.com/volkswagenchick">AmyJune Hineline</a> joined the team and really helped this project get off the ground! We'd like to give a special shout-out to <a target="_blank" href="https://twitter.com/caitlinthefirst">Caitlin Cashin</a> who has moderated some past panels as well.
 - A11yTalks seeks to provide a friendly, safe environment. All participants should be able to engage in productive dialogue. They should share and learn with each other in an atmosphere of mutual respect. We require all participants to adhere to this Code of Conduct. This applies to all community interaction and events.
 - We also make a conscious effort to include PWD, BIPOC, LGBTQIA+, women, and other marginalized groups in tech in our speaker line-up. Please let us know if you have ideas on how to make A11yTalks more friendly to all!
 
