@@ -11,6 +11,9 @@
 
 @include breakpoint-sm {
     .sidebar {
+      position: sticky;
+      top: 0;
+
         lost-column: 4/12;
         &__inner {
             padding: 30px 20px 0;
@@ -31,6 +34,9 @@
 
 @include breakpoint-md {
     .sidebar {
+      position: sticky;
+      top: 0;
+
         lost-column: 1/4;
         &__inner {
             padding: 30px;

@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Virtual monthly meet-up group that features speakers & conversations around the topic of digital accessibility.',
   copyright: '© 2020 All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 3,
+  postsPerPage: 4,
   useKatex: false,
   menu: [
     {
