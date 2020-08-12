@@ -22,9 +22,12 @@
         text-decoration: none;
         border-radius: $button-border-radius;
         color: $color-base;
+        background: $color-primary;
+        color: $color-white;
 
         &:hover,
         &:focus {
+          background: $color-white;
           color: $color-primary;
         }
 
@@ -36,12 +39,13 @@
 
   @media (prefers-color-scheme: dark) { 
     &__list-item-link {
-      color: $color-primary;
+      background: $color-primary;
+      color: $color-white;
 
       &:hover,
       &:focus {
-        background: $color-primary;
-        color: $color-white;
+        background: $color-white;
+        color: $color-primary;
       }
     }
   }

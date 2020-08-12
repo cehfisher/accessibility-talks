@@ -28,23 +28,27 @@
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
+    background: $color-primary;
+    color: $color-white;
     @include margin-top(1);
 
     &:hover,
     &:focus {
       color: $color-primary;
+      background: $color-white;
     }
 
   }
 
   @media (prefers-color-scheme: dark) { 
     &__home-button {
-      color: $color-primary;
+      background: $color-primary;
+      color: $color-white;
 
       &:hover,
       &:focus {
-        background: $color-primary;
-        color: $color-white;
+        background: $color-white;
+        color: $color-primary;
       }
     }
   }
