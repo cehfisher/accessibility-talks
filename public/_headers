@@ -312,18 +312,6 @@
   Link: </component---src-templates-page-template-js-2f9e8f9571ab96e4e833.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/pages/conduct/page-data.json>; rel=preload; as=fetch; crossorigin
-/posts/2020-OCT
-  Link: </webpack-runtime-20971cf84e0a5a6b249c.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </framework-4ae830732e225b42b55a.js>; rel=preload; as=script
-  Link: </532a2f07-549094fa347c85980056.js>; rel=preload; as=script
-  Link: </app-5e57b42a700fa3c692a2.js>; rel=preload; as=script
-  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
-  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-8ea8d88f6da06ee80dca.js>; rel=preload; as=script
-  Link: </643651a62fb35a9bb4f20061cb1f214a352d7976-b24c4007fa513d16f229.js>; rel=preload; as=script
-  Link: </component---src-templates-post-template-js-5ab9e1f8f7e057153d17.js>; rel=preload; as=script
-  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </page-data/posts/2020-OCT/page-data.json>; rel=preload; as=fetch; crossorigin
 /posts/2020-NOV
   Link: </webpack-runtime-20971cf84e0a5a6b249c.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
@@ -336,6 +324,18 @@
   Link: </component---src-templates-post-template-js-5ab9e1f8f7e057153d17.js>; rel=preload; as=script
   Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </page-data/posts/2020-NOV/page-data.json>; rel=preload; as=fetch; crossorigin
+/posts/2020-OCT
+  Link: </webpack-runtime-20971cf84e0a5a6b249c.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </framework-4ae830732e225b42b55a.js>; rel=preload; as=script
+  Link: </532a2f07-549094fa347c85980056.js>; rel=preload; as=script
+  Link: </app-5e57b42a700fa3c692a2.js>; rel=preload; as=script
+  Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
+  Link: </cd95ea5cbd2c605f26db819f07999610c9ff4310-8ea8d88f6da06ee80dca.js>; rel=preload; as=script
+  Link: </643651a62fb35a9bb4f20061cb1f214a352d7976-b24c4007fa513d16f229.js>; rel=preload; as=script
+  Link: </component---src-templates-post-template-js-5ab9e1f8f7e057153d17.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/posts/2020-OCT/page-data.json>; rel=preload; as=fetch; crossorigin
 /tag/2019
   Link: </webpack-runtime-20971cf84e0a5a6b249c.js>; rel=preload; as=script
   Link: </styles-407fe62976dc5310c43e.js>; rel=preload; as=script
