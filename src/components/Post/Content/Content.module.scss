@@ -34,6 +34,10 @@
     margin: 0 auto;
     text-align: center;
     word-break: break-word;
+    
+    & p {
+      clear: both;
+    }
 
     & figure {
       @include margin-bottom(1);
@@ -54,6 +58,17 @@
 
       }
 
+    }
+
+    & ul {
+
+      & li {
+        float: left;
+
+        &:last-child {
+          @include margin-bottom(1);
+        }
+      }
     }
 
     & a {
