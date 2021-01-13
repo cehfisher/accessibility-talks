@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://a11ytalks.com',
   pathPrefix: '/',
   title: 'A11yTalks',
-  subtitle: 'Virtual monthly meet-up group that features speakers & conversations around the topic of digital accessibility.',
-  copyright: '© 2020 All rights reserved.',
+  subtitle: 'Virtual meet-up featuring speakers & conversations around digital accessibility.',
+  copyright: '© 2021 All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   useKatex: false,
@@ -13,6 +13,10 @@ module.exports = {
     {
       label: 'All Events',
       path: '/'
+    },
+    {
+      label: '2021',
+      path: '/tag/2021'
     },
     {
       label: '2020',

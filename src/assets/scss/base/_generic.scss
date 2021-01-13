@@ -97,7 +97,7 @@ hr {
   margin-right: auto;
   margin-left: auto;
   background-size: 100% 26px;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 26px);
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-primary 11px, $color-primary 15px, transparent 15px, transparent 26px);
   width: 100px;
 }
 
@@ -109,6 +109,7 @@ a {
   &:focus,
   &:active {
     color: $typographic-link-s-font-color;
+    text-decoration: underline;
   }
 
 }
@@ -208,10 +209,6 @@ p {
   body {
     background: $color-black;
     color: $color-white;
-  }
-
-  hr {
-    background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, #fff 11px, #fff 15px, transparent 15px, transparent 26px);
   }
 
   .social-image {

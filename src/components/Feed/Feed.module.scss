@@ -45,7 +45,6 @@
         &:hover,
         &:focus {
           color: $color-base;
-          border-bottom: 1px solid $color-base;
         }
 
       }
@@ -73,13 +72,13 @@
       &-category {
         &-link {
           font-size: $typographic-small-font-size;
-          color: $color-secondary;
+          color: $color-accent;
           font-weight: 600;
           text-transform: uppercase;
 
           &:hover,
           &:focus {
-            color: $color-primary;
+            color: $color-accent;
           }
 
         }
@@ -90,13 +89,12 @@
 
     &-readmore {
       font-size: $typographic-base-font-size;
-      color: $color-primary;
+      color: $color-secondary;
       @include margin-bottom(1.5);
 
       &:hover,
       &:focus {
         color: $color-primary;
-        border-bottom: 1px solid $color-primary;
       }
 
     }

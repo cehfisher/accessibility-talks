@@ -28,11 +28,12 @@
         height: $button-height;
         width: $button-height;
         line-height: $button-height;
+        background: $color-primary;
   
         &:hover,
         &:focus {
-          color: $color-white;
-          background: $color-primary;
+          color: $color-black;
+          background: $color-white;
         }
 
       }
@@ -43,7 +44,7 @@
 
   @media (prefers-color-scheme: dark) {
     &__list-item-link {
-      color: $color-white;
+      color: $color-black;
     }
   }
 

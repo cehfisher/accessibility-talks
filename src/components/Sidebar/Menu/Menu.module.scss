@@ -10,7 +10,7 @@
     margin: 0;
 
     a {
-      color: $color-primary;
+      color: $color-secondary;
     }
 
     &-item {
@@ -26,12 +26,10 @@
         &:hover,
         &:focus {
           color: $color-primary;
-          border-bottom: 1px solid $color-primary;
         }
 
         &--active {
           color: $color-base;
-          border-bottom: 1px solid $color-base;
         }
 
       }

@@ -29,12 +29,12 @@
     margin-left: auto;
     margin-right: auto;
     background: $color-primary;
-    color: $color-white;
+    color: $color-black;
     @include margin-top(1);
 
     &:hover,
     &:focus {
-      color: $color-primary;
+      color: $color-black;
       background: $color-white;
     }
 
@@ -43,12 +43,12 @@
   @media (prefers-color-scheme: dark) { 
     &__home-button {
       background: $color-primary;
-      color: $color-white;
+      color: $color-black;
 
       &:hover,
       &:focus {
         background: $color-white;
-        color: $color-primary;
+        color: $color-black;
       }
     }
   }
