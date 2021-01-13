@@ -50,7 +50,7 @@ module.exports = {
   author: {
     name: 'A11yTalks',
     photo: '/photo.png',
-    bio: 'Virtual monthly meet-up group that features speakers and conversations around the topic of digital accessibility.',
+    bio: 'Virtual meet-up featuring speakers & conversations around digital accessibility..',
     contacts: {
       email: 'accessibilitytalks@gmail.com',
       youtube: 'accessibilitytalks',

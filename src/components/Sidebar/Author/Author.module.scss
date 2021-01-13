@@ -19,10 +19,11 @@
 
     &-link {
       color: $color-base;
+      text-decoration: underline;
 
       &:hover,
       &:focus {
-        color: $color-base
+        color: $color-primary;
       }
 
     }
@@ -39,11 +40,12 @@
 
   @media (prefers-color-scheme: dark) {
     &__title-link {
-      color: $color-gray-border;
+      color: $color-primary;
+      text-decoration: underline;
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: $color-gray-border;
       }
     }
 

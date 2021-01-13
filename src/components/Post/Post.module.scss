@@ -28,7 +28,7 @@
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
-    background: $color-primary;
+    background: $color-accent;
     color: $color-black;
     @include margin-top(1);
 
@@ -42,7 +42,7 @@
 
   @media (prefers-color-scheme: dark) { 
     &__home-button {
-      background: $color-primary;
+      background: $color-accent;
       color: $color-black;
 
       &:hover,
