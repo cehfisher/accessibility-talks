@@ -50,7 +50,7 @@ module.exports = {
     contacts: {
       email: 'accessibilitytalks@gmail.com',
       youtube: 'accessibilitytalks',
-      twitter: 'A11YTalks',
+      twitter: 'A11yTalks',
       github: 'cehfisher/accessibility-talks',
       rss: '',
       linkedin: '',
