@@ -35,22 +35,9 @@
     &:hover,
     &:focus {
       color: $color-black;
-      background: $color-white;
+      background: $color-gray-bg;
     }
 
-  }
-
-  @media (prefers-color-scheme: light) { 
-    &__home-button {
-      background: $color-accent;
-      color: $color-black;
-
-      &:hover,
-      &:focus {
-        background: $color-gray-bg;
-        color: $color-black;
-      }
-    }
   }
 }
 

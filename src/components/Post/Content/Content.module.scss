@@ -13,10 +13,11 @@
     margin-right: auto;
     font-weight: 600;
     text-align: center;
+    text-shadow: 0.5px 1.5px 0px $color-black;
+    color: $color-primary;
     @include line-height(1.65);
     @include margin-top(1);
     @include margin-bottom(0)
-    text-shadow: 0.5px 1.5px 0px $color-black;
   }
 
   &__subtitle {
@@ -86,12 +87,6 @@
       max-width: 100%;
     }
 
-  }
-
-  @media (prefers-color-scheme: light) { 
-    &__title {
-      color: $color-primary;
-    }
   }
 
 }

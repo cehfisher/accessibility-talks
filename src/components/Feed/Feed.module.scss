@@ -7,7 +7,7 @@
   h3 {
     @include margin-top(.5);
     font-size: $typographic-small-font-size;
-    color: $color-base;
+    color: $color-gray-bg;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -45,11 +45,11 @@
       @include margin-bottom(.5);
 
       &-link {
-        color: $color-base;
+        color: $color-primary;
 
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: $color-gray-bg;
         }
 
       }
@@ -65,7 +65,7 @@
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
-        color: $color-base;
+        color: $color-gray-bg;
         font-weight: 600;
         text-transform: uppercase;
       }

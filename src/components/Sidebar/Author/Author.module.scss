@@ -18,11 +18,11 @@
     @include margin(.5, 0, .5, 0);
 
     &-link {
-      color: $color-base;
+      color: $color-primary;
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: $color-gray;
       }
 
     }
@@ -30,7 +30,7 @@
   }
 
   &__subtitle {
-    color: $color-gray-border;
+    color: $color-gray-bg;
     @include line-height(1);
     @include margin-bottom(0.5);
     @include margin-top(1);
