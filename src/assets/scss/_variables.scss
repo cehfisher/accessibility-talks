@@ -10,12 +10,12 @@ $color-accent: #FF9F1c;
 
 $color-white: #FFF;
 $color-gray: lighten($color-base, 30%);
-$color-gray-border: lighten($color-base, 50%);
+$color-gray-border: #757575;
 $color-gray-bg: lighten($color-base, 79%);
 $color-black: #000;
 
 // Typographic
-$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+$typographic-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 $typographic-root-font-size: 100;
 $typographic-base-font-size: 16px;

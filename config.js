@@ -11,10 +11,6 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'All Events',
-      path: '/'
-    },
-    {
       label: '2021',
       path: '/tag/2021'
     },
@@ -27,7 +23,7 @@ module.exports = {
       path: '/tag/2019'
     },
     {
-      label: 'Tags',
+      label: 'All Tags',
       path: '/tags'
     },
     {
@@ -50,7 +46,7 @@ module.exports = {
   author: {
     name: 'A11yTalks',
     photo: '/photo.png',
-    bio: 'Virtual meet-up featuring speakers & conversations around digital accessibility..',
+    bio: 'Virtual meet-up featuring speakers & conversations around digital accessibility.',
     contacts: {
       email: 'accessibilitytalks@gmail.com',
       youtube: 'accessibilitytalks',

@@ -70,7 +70,6 @@ export const query = graphql`
             title
             subtitle
             date
-            category
             description
             socialImage
           }

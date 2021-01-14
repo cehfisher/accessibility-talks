@@ -38,7 +38,7 @@
 
   }
   
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: light) {
     &__list-item-link {
       color: $color-primary;
     }

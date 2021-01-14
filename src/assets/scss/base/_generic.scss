@@ -18,7 +18,6 @@ html {
 body {
   margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
-  color: $typographic-base-font-color;
   line-height: $typographic-base-line-height;
   font-size: $typographic-base-font-size;
   -ms-text-size-adjust: 100%;
@@ -26,6 +25,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: $color-black;
+  color: $color-white;
 }
 
 h1,
@@ -97,7 +98,7 @@ hr {
   margin-right: auto;
   margin-left: auto;
   background-size: 100% 26px;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-primary 11px, $color-primary 15px, transparent 15px, transparent 26px);
+  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-accent 11px, $color-accent 15px, transparent 15px, transparent 26px);
   width: 100px;
 }
 
@@ -204,14 +205,14 @@ p {
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 
   body {
-    background: $color-black;
-    color: $color-white;
+    background: $color-white;
+    color: $color-black;
   }
 
   .social-image {
-    border: 2px solid $color-gray;
+    border: 2px solid $color-primary;
   }
 }

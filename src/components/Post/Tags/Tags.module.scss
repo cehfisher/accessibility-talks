@@ -37,14 +37,14 @@
 
   }
 
-  @media (prefers-color-scheme: dark) { 
+  @media (prefers-color-scheme: light) { 
     &__list-item-link {
       background: $color-primary;
       color: $color-black;
 
       &:hover,
       &:focus {
-        background: $color-white;
+        background: $color-gray-bg;
         color: $color-black;
       }
     }

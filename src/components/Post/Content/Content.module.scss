@@ -16,6 +16,7 @@
     @include line-height(1.65);
     @include margin-top(1);
     @include margin-bottom(0)
+    text-shadow: 0.5px 1.5px 0px $color-black;
   }
 
   &__subtitle {
@@ -87,9 +88,9 @@
 
   }
 
-  @media (prefers-color-scheme: dark) { 
+  @media (prefers-color-scheme: light) { 
     &__title {
-      color: $color-gray-border;
+      color: $color-primary;
     }
   }
 

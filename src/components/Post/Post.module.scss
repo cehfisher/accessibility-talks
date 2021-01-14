@@ -40,14 +40,14 @@
 
   }
 
-  @media (prefers-color-scheme: dark) { 
+  @media (prefers-color-scheme: light) { 
     &__home-button {
       background: $color-accent;
       color: $color-black;
 
       &:hover,
       &:focus {
-        background: $color-white;
+        background: $color-gray-bg;
         color: $color-black;
       }
     }

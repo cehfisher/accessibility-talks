@@ -6,7 +6,7 @@
   font-size: $typographic-small-font-size;
 }
 
-@media (prefers-color-scheme: dark) { 
+@media (prefers-color-scheme: light) {
   .copyright {
     color: $color-gray-border;
   }

@@ -12,14 +12,13 @@
   }
 
   &__title {
-    font-size: $typographic-base-font-size * 2.2;
+    font-size: $typographic-base-font-size * 2.5;
     font-weight: 600;
     @include line-height(1.125);
     @include margin(.5, 0, .5, 0);
 
     &-link {
       color: $color-base;
-      text-decoration: underline;
 
       &:hover,
       &:focus {
@@ -31,26 +30,28 @@
   }
 
   &__subtitle {
-    color: $color-gray;
+    color: $color-gray-border;
     @include line-height(1);
-    @include margin-bottom(1);
+    @include margin-bottom(0.5);
     @include margin-top(1);
     font-size: 0.9rem;
+    text-align: center;
   }
 
-  @media (prefers-color-scheme: dark) {
+  @media (prefers-color-scheme: light) {
     &__title-link {
       color: $color-primary;
-      text-decoration: underline;
+      text-shadow: 0.5px 1.5px 0px $color-black;
 
       &:hover,
       &:focus {
-        color: $color-gray-border;
+        color: $color-black;
+        text-shadow: inherit;
       }
     }
 
     &__subtitle {
-      color: $color-white;
+      color: $color-black;
     }
   }
 

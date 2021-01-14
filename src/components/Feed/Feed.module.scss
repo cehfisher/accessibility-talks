@@ -2,10 +2,15 @@
 @import '../../assets/scss/mixins';
 
 .feed {
+  text-align: center;
   
   h3 {
-    margin-top: -0.5rem;
-    font-weight: 400;
+    @include margin-top(.5);
+    font-size: $typographic-small-font-size;
+    color: $color-base;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
   }
 
   .feed__item-image {
@@ -41,7 +46,6 @@
 
       &-link {
         color: $color-base;
-        text-decoration: underline;
 
         &:hover,
         &:focus {
@@ -123,6 +127,8 @@
   }
 
   @include breakpoint-md {
+    text-align: left;
+
     .feed__item-image {
       margin-right: 0;
       float: left;
@@ -144,18 +150,19 @@
     }
   }
 
-  @media (prefers-color-scheme: dark) { 
+  @media (prefers-color-scheme: light) { 
     &__item-title-link {
-      color: $color-primary;
+      color: $color-black;
 
       &:hover,
       &:focus {
-        color: $color-gray-border;
+        color: $color-primary;
       }
     }
 
-    &__item-meta-time {
-      color: $color-white;
+    &__item-meta-time,
+    h3 {
+      color: $color-gray-border;
     }
   }
 
