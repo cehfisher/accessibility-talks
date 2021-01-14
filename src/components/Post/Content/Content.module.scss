@@ -104,10 +104,10 @@
 
     &__subtitle {
       font-size: $typographic-base-font-size * 1.5;
+      text-transform: uppercase;
       @include line-height(1.25);
       @include margin-top(1.25);
       @include margin-bottom(1)
-      font-style: italic;
     }
 
     &__body {
