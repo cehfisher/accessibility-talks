@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://a11ytalks.com',
   pathPrefix: '/',
   title: 'A11yTalks',
-  subtitle: 'Virtual meet-up featuring speakers & conversations around digital accessibility.',
+  subtitle: 'Virtual meet-up featuring speakers & conversations around digital accessibility',
   copyright: '© 2021 All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -46,7 +46,7 @@ module.exports = {
   author: {
     name: 'A11yTalks',
     photo: '/photo.png',
-    bio: 'Virtual meet-up featuring speakers & conversations around digital accessibility.',
+    bio: 'Virtual meet-up featuring speakers & conversations around digital accessibility',
     contacts: {
       email: 'accessibilitytalks@gmail.com',
       youtube: 'accessibilitytalks',

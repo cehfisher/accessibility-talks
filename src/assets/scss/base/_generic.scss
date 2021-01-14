@@ -180,7 +180,7 @@ p {
   margin-right: 2rem;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
-  border: 2px solid $color-black;
+  border: 4px solid $color-accent;
   border-radius: 50%;
 }
 
@@ -210,9 +210,5 @@ p {
   body {
     background: $color-white;
     color: $color-black;
-  }
-
-  .social-image {
-    border: 2px solid $color-primary;
   }
 }
