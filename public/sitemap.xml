@@ -27,12 +27,14 @@
 <url> <loc>https://a11ytalks.com/pages/conduct/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/contact/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/accessibility/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2021-FEB</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2019</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2019/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2019/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2020</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2020/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2020/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/2021</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/aria</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/at</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/beginners</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -76,4 +78,5 @@
 <url> <loc>https://a11ytalks.com/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/page/5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
