@@ -11,6 +11,10 @@ module.exports = {
   useKatex: false,
   menu: [
     {
+      label: 'Calendar',
+      path: '/pages/calendar'
+    },
+    {
       label: '2021',
       path: '/tag/2021'
     },
