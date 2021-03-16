@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Virtual meet-up featuring speakers & conversations around digital accessibility',
   copyright: '© 2021 All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 6,
+  postsPerPage: 5,
   useKatex: false,
   menu: [
     {
