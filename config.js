@@ -7,29 +7,9 @@ module.exports = {
   subtitle: 'Virtual meet-up featuring speakers & conversations around digital accessibility',
   copyright: '© 2021 All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 6,
   useKatex: false,
   menu: [
-    {
-      label: 'Calendar',
-      path: '/pages/calendar'
-    },
-    {
-      label: '2021',
-      path: '/tag/2021'
-    },
-    {
-      label: '2020',
-      path: '/tag/2020'
-    },
-    {
-      label: '2019',
-      path: '/tag/2019'
-    },
-    {
-      label: 'All Tags',
-      path: '/tags'
-    },
     {
       label: 'About',
       path: '/pages/about'
@@ -39,13 +19,17 @@ module.exports = {
       path: '/pages/accessibility'
     },
     {
+      label: 'All Tags',
+      path: '/tags'
+    },
+    {
+      label: 'Calendar',
+      path: '/pages/calendar'
+    },
+    {
       label: 'Code of Conduct',
       path: '/pages/conduct'
     },
-    {
-      label: 'Contact',
-      path: '/pages/contact'
-    }
   ],
   author: {
     name: 'A11yTalks',
