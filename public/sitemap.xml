@@ -5,8 +5,8 @@
 <url> <loc>https://a11ytalks.com/posts/2019-AUG</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-DEC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://a11ytalks.com/posts/2019-JUN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2021-FEB-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2019-JUN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2021-MAR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-MAR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-MAY-panel</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -31,6 +31,7 @@
 <url> <loc>https://a11ytalks.com/pages/conduct/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/calendar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2021-FEB</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2021-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2019</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2019/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2019/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -38,10 +39,12 @@
 <url> <loc>https://a11ytalks.com/tag/2020/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2020/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/2021</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/2021/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/aria</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/at</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/at/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/beginners</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/beginners/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/business</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/business/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/cms</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -54,6 +57,7 @@
 <url> <loc>https://a11ytalks.com/tag/development/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/digital-inclusion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/digital-inclusion/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/digital-inclusion/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/diversity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/dyslexia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/focus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -63,6 +67,7 @@
 <url> <loc>https://a11ytalks.com/tag/notifications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/people-first</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/people-first/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/people-first/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/project-book</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/screen-readers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/social-media</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -77,6 +82,7 @@
 <url> <loc>https://a11ytalks.com/category/event/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/category/event/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/category/event/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/category/event/page/5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/category/panel</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -84,4 +90,5 @@
 <url> <loc>https://a11ytalks.com/page/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/page/4</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/page/5</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/page/6</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
