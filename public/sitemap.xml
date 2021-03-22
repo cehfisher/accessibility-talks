@@ -26,8 +26,9 @@
 <url> <loc>https://a11ytalks.com/posts/2019-MAR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2018-JAN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2020-OCT</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://a11ytalks.com/posts/2021-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-JAN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2021-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2021-MAY</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/calendar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2021-FEB</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -45,6 +46,7 @@
 <url> <loc>https://a11ytalks.com/tag/2021</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/aria</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/at</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/at/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/beginners</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/business</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/business/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -58,6 +60,7 @@
 <url> <loc>https://a11ytalks.com/tag/development/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/digital-inclusion</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/digital-inclusion/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/digital-inclusion/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/diversity</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/dyslexia</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/focus</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -67,6 +70,7 @@
 <url> <loc>https://a11ytalks.com/tag/notifications</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/people-first</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/people-first/page/1</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/tag/people-first/page/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/project-book</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/screen-readers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/tag/social-media</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
