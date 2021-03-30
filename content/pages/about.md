@@ -13,13 +13,13 @@ template: "page"
 - We are using Zoom for our virtual meetings, which is live-stream to our YouTube channel. This live-stream will be converted to a video and posted to our channel archives. We are using a Creative Commons license, so you own your content, but you agree to let us post your content on your behalf.
 - Before speaking, we offer practice time to get used to the technology. This is optional, but we do need you to report to the room *10-15 minutes before your talk* to test the audio/video and fix any last-minute technical issues. You are not required to share your video.
 - The typical format is as follows: the speaker(s) is introduced by one of the hosts, the presenter/panelist speaks for 45 minutes or less, Q&A time from the audience, general wrap-up and done!
-- Note: we do offer AI generated live-captions during the event and manually edit the YouTube captions for the video post-event, for our hearing impaired audience members. We highly encourage our speakers to describe any visuals used during their presentation and to provide links to resources and slides, for our visually impaired audience members.
+- Note: we do offer AI-generated live-captions during the event and manually edit the YouTube captions for the video post-event, for our hearing-impaired audience members. We highly encourage our speakers to describe any visuals used during their presentation and to provide links to resources and slides, for our visually-impaired audience members.
  
 ##What We Need From You
 - First, we need to decide what month/day/time is open for you to present. We aim for mid-month, mid-week, mid-day (ET) to cover more time zones, but we can certainly be flexible!
 - Next, we need a title and a short description (3-4 sentences) of your presentation. If you have presented the talk before and you have a link to that event, that can be helpful.
 - If you have links in your presentation, please provide them as a separate file. This helps us with link accuracy during the event.
-- Headshot/avatar image of yourself
+- Headshot/avatar image of yourself/all speakers
 - Pronouns
 - Twitter, LinkedIn, or other way people can easily contact you directly
 - Lastly, please provide us a "fun fact" or two that you'd like to share with the group so people can get to know you a bit better!
