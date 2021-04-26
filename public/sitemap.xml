@@ -4,12 +4,14 @@
 <url> <loc>https://a11ytalks.com/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-AUG</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-DEC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://a11ytalks.com/posts/2019-JUN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2021-FEB-2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2019-JUN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-OCT</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2021-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/conduct/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-SEP</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://a11ytalks.com/posts/2021-MAY</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2020-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2020-AUG</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2020-DEC</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -27,8 +29,6 @@
 <url> <loc>https://a11ytalks.com/posts/2018-JAN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2020-OCT</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-JAN</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://a11ytalks.com/posts/2021-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://a11ytalks.com/posts/2021-MAY</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2019-APR</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/pages/calendar/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://a11ytalks.com/posts/2021-FEB</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
