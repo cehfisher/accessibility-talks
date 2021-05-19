@@ -7,15 +7,8 @@ import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
-import type { PageContext, AllMarkdownRemark } from '../types';
-import Img from "gatsby-image";
 
-type Props = {
-  data: AllMarkdownRemark,
-  pageContext: PageContext
-};
-
-const IndexTemplate = ({ data, pageContext }: Props) => {
+const IndexTemplate = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
@@ -27,6 +20,12 @@ const IndexTemplate = ({ data, pageContext }: Props) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
+
+  // Sort so next talk is always on top.
+  edges.sort((a, b) => {
+    return a.node.frontmatter.next === true ? -1 : b.node.frontmatter.next === true ? 1 : 0;
+  })
+
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
   return (
@@ -66,6 +65,7 @@ export const query = graphql`
           subtitle
           date
           description
+          next
         }
       }
     }

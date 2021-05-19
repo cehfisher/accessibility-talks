@@ -1,28 +1,17 @@
 // @flow strict
 import React from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
-import type { Node as ReactNode } from 'react';
+import PropTypes from 'prop-types';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
-
-type Props = {
-  children: ReactNode,
-  title: string,
-  subtitle: string,
-  description?: string,
-  socialImage? :string
-};
 
 const Layout = ({
   children,
   title,
-  subtitle,
   description,
   socialImage
-}: Props) => {
+}) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
@@ -44,5 +33,12 @@ const Layout = ({
     </div>
   );
 };
+
+Layout.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  description: PropTypes.string,
+  socialImage: PropTypes.string
+}
 
 export default Layout;

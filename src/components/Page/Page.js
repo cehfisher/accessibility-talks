@@ -1,15 +1,8 @@
 import React, { useRef, useEffect } from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import PropTypes from 'prop-types';
 import styles from './Page.module.scss';
 
-type Props = {
-  title?: string,
-  subtitle?: string,
-  children: React.Node
-};
-
-const Page = ({ title, children }: Props) => {
+const Page = ({ title, children }) => {
   const pageRef = useRef();
 
   useEffect(() => {
@@ -27,5 +20,10 @@ const Page = ({ title, children }: Props) => {
     </main>
   );
 };
+
+Page.propTypes = {
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+}
 
 export default Page;
