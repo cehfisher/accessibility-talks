@@ -6,3 +6,4 @@ npm-debug.log
 .idea
 gatsby-starter-lumen.iml
 /public
+/package-lock.json

@@ -114,7 +114,7 @@
     "babel-eslint": "10.1.0",
     "babel-jest": "26.1.0",
     "babel-preset-gatsby": "0.5.2",
-    "browserslist": "4.13.0",
+    "browserslist": "4.16.5",
     "concurrently": "5.2.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "14.2.0",
