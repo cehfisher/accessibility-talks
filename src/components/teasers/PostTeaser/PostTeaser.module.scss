@@ -8,7 +8,7 @@
     @include margin-top(.5);
     font-size: $typographic-small-font-size;
     color: $color-gray-bg;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     text-align: center;
   }
@@ -87,8 +87,7 @@
         &-link {
           font-size: $typographic-small-font-size;
           color: $color-accent;
-          font-weight: 600;
-          text-transform: uppercase;
+          text-transform: none;
 
           &:hover,
           &:focus {

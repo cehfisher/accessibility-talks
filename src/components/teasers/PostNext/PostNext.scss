@@ -4,20 +4,43 @@
 .post-next {
   text-align: center;
   padding: 1rem 2rem;
-  clear: both;
 
-  h3 {
-    margin-top: 0;
+  h2 {
+    @include line-height(1.5);
+    @include margin-top(1);
+    @include margin-bottom(.05);
     text-transform: uppercase;
+    color: $color-secondary;
+    font-size: $typographic-huge-font-size;
+    font-weight: 900;
+    float: none;
+    clear: both;
+
+    @include breakpoint-md {
+      @include margin-top(0);
+      float: left;
+    }
+  }
+
+  h3,
+  time.post-next__item-date {
+    @include line-height(1.5);
+    @include margin-top(0);
+    @include margin-bottom(.05);
+    text-transform: uppercase;
+    color: $color-accent;
+    font-size: $typographic-large-font-size;
+    font-weight: 500;
+    float: none;
+    clear: both;
+
+    @include breakpoint-md {
+      float: left;
+    }
   }
 
   &__item {
     padding: 1rem 2rem;
-    clear: both;
-
-    &-upcoming {
-
-    }
 
     &-next {
       border: 1px solid $color-gray-border;
@@ -44,6 +67,14 @@
 
       &-link {
         color: $color-primary;
+        text-transform: none;
+        float: none;
+        text-align: center;
+
+        @include breakpoint-md {
+          float: left;
+          text-align: left;
+        }
 
         &:hover,
         &:focus {
@@ -54,9 +85,11 @@
 
     &-image {
       text-align: center;
+      width: 100%;
 
       @include breakpoint-md {
-        margin-left: 0;
+        width: 45%;
+        float: right;
       }
     }
 
@@ -64,10 +97,13 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 100%;
 
       @include breakpoint-md {
-        justify-content: space-evenly;
+        justify-content: space-between;
         flex-direction: column;
+        float: left;
+        width: 50%;
       }
     }
 
@@ -93,8 +129,7 @@
         &-link {
           font-size: $typographic-small-font-size;
           color: $color-accent;
-          font-weight: 600;
-          text-transform: uppercase;
+          text-transform: none;
 
           &:hover,
           &:focus {
@@ -120,7 +155,6 @@
     margin-right: 0;
     margin-top: 0.5rem;
     float: none;
-    lost-column: 12/12;
   }
 
   @include breakpoint-md {

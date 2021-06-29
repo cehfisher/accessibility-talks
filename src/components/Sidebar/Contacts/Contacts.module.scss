@@ -33,7 +33,7 @@
         &:hover,
         &:focus {
           color: $color-black;
-          background: $color-gray-bg;
+          background: $color-gray;
         }
 
       }
@@ -45,6 +45,7 @@
   @media (prefers-color-scheme: light) {
     &__list-item-link {
       color: $color-black;
+      background: $color-gray-bg;
     }
   }
 
