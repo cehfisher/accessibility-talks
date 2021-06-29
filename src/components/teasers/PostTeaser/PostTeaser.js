@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import moment from 'moment';
 import classNames from 'classnames';
-import styles from './PostTeaser.scss';
+import styles from './PostTeaser.module.scss';
 
 const PostTeaser = (props) => {
 

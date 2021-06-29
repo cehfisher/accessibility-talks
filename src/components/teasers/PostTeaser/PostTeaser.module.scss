@@ -17,15 +17,10 @@
     padding: 1rem 2rem;
     clear: both;
 
-    &-upcoming {
-
-    }
-
     &-next {
       border: 1px solid $color-gray-border;
       border-radius: 1rem;
     }
-
 
     hr {
       clear: both;
@@ -34,9 +29,9 @@
     &:last-child {
       @include margin-bottom(.5);
 
-        & hr {
-          display: none !important;
-        }
+      & hr {
+        display: none !important;
+      }
     }
 
     &-title {
@@ -52,28 +47,16 @@
         &:focus {
           color: $color-gray-bg;
         }
-
       }
-
     }
 
     &-image {
-      min-width: 175px;
+      min-width: 200px;
       text-align: center;
 
 
       @include breakpoint-md {
         margin-right: 2rem;
-      }
-
-      img {
-        width: 100%;
-        height: 100%;
-        max-width: 175px;
-        max-height: 175px;
-        margin: 0 auto;
-        float: none;
-        text-align: center;
       }
     }
 
@@ -117,11 +100,8 @@
           &:focus {
             color: $color-accent;
           }
-
         }
-
       }
-
     }
 
     &-readmore {
@@ -133,9 +113,7 @@
       &:focus {
         color: $color-primary;
       }
-
     }
-
   }
 
   .post__item-description {

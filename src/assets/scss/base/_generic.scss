@@ -100,6 +100,7 @@ hr {
   background-size: 100% 26px;
   background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-accent 11px, $color-accent 15px, transparent 15px, transparent 26px);
   width: 100px;
+  clear: both;
 }
 
 a {
@@ -183,6 +184,30 @@ p {
   margin-top: 0.5rem;
   border: 4px solid $color-accent;
   border-radius: 50%;
+
+  img {
+    width: 100%;
+    height: 100%;
+    max-width: 175px;
+    max-height: 175px;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+  }
+}
+
+.social-image-next {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  border: 4px solid $color-accent;
+  border-radius: 50%;
+
+  img {
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    max-width: 50px !important;
+  }
 }
 
 .calendar {
