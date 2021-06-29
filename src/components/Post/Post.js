@@ -1,24 +1,14 @@
 // @flow strict
 import React from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import { Link } from 'gatsby';
-import Author from './Author';
-import Comments from './Comments';
 import Content from './Content';
-import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
-import type { Node } from '../../types';
 
-type Props = {
-  post: Node
-};
-
-const Post = ({ post }: Props) => {
-  const { html } = post;
-  const { tagSlugs, slug } = post.fields;
-  const { tags, title, subtitle, date } = post.frontmatter;
+const Post = ({ post }) => {
+  const { html, fields, frontmatter } = post;
+  const { tagSlugs } = fields;
+  const { tags, title, subtitle } = frontmatter;
 
   return (
     <main className={styles['post']}>
@@ -28,8 +18,8 @@ const Post = ({ post }: Props) => {
         <Content body={html} title={title} subtitle={subtitle} />
       </div>
 
-      <div className={styles['post__footer']}>	
-        {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}	
+      <div className={styles['post__footer']}>
+        {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
       </div>
     </main>
   );

@@ -5,6 +5,15 @@ email, or any other method with the owners of this repository before making a ch
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Development
+
+* run `npm install`
+* run `npm run develop` for a preview of the site.
+* Fix all the things!
+* run `npm run build` to create a production build of the site.
+* run `npm run serve` to test the production build.
+* git commit -am
+
 ## Pull Request Process
 
 1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
@@ -13,6 +22,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
 
 ## Code of Conduct
+
+See the [Code of Conduct](./CODE_OF_CONDUCT.md)
 
 ### Our Pledge
 

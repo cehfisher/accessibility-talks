@@ -2,7 +2,9 @@
 All notable changes to this project will be documented in this file.
 
 ## [3.0.3] - 2019-07-25
+
 ### Added
+
 - [Pull #321](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/321): Add title to <Icon /> for accessibility
 - [Pull #319](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/319): Fixed invalid Telegram contact url
 - [Pull #314](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/314): Hides the contact icon if empty in config
@@ -13,14 +15,17 @@ All notable changes to this project will be documented in this file.
 - [Pull #181](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/181): Add More Flow typings
 - [Pull #178](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/178): Integrate Flow typing
 
+
 ## [3.0.1] - 2019-03-03
+
 ### Added
+
 - [Pull #118](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/118): feat: add gatsby-remark-autolink-headers support
 - [Pull #99](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/99): Add lang="en" to <html>
 - [Pull #95](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/95): Fixed url prop bug for <ReactDisqusComments />
 - [Pull #94](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/94): Add isIndex prop to Sidebar in index-template
 - [Pull #93](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/93): Upgrade React version to 16.8.1
-- [Pull #89](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/89): Removed .gatsby-highlight selectors 
+- [Pull #89](https://github.com/alxshelepenok/gatsby-starter-lumen/pull/89): Removed .gatsby-highlight selectors
 
 ## [3.0.0] - 2019-01-22
 - Heavy refactoring

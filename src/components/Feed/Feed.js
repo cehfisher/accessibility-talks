@@ -1,41 +1,20 @@
-// @flow strict
+
 import React from 'react';
-import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
-import moment from 'moment';
-import { Link } from 'gatsby';
-import type { Edges } from '../../types';
 import styles from './Feed.module.scss';
+import PostTeaser from '../teasers/PostTeaser/PostTeaser';
+import PostNext from '../teasers/PostNext';
 
-type Props = {
-  edges: Edges
-};
+const Feed = ({ edges }) => {
 
-const Feed = ({ edges }: Props) => (
+
+  return(
   <div className={styles['feed']}>
-    {edges.map((edge) => (
-      <div className={styles['feed__item']} key={edge.node.fields.slug}>
-        <div className={styles['feed__item-meta']}>
-          <time className={styles['feed__item-meta-time']} dateTime={moment(edge.node.frontmatter.date).format('MMMM D, YYYY')}>
-            {moment(edge.node.frontmatter.date).format('MMMM YYYY')}
-          </time>
-          <span className={styles['feed__item-meta-divider']} />
-        </div>
-        <h2 className={styles['feed__item-title']}>
-          <Link className={styles['feed__item-title-link']} to={edge.node.fields.slug}>{edge.node.frontmatter.title}</Link>
-        </h2>
-        <div className={styles['feed__item-image']}><img
-            src={edge.node.frontmatter.socialImage}
-            className={'social-image'}
-            alt=""
-          />
-          <h3 className={styles['feed__item-subtitle']}>{edge.node.frontmatter.subtitle}</h3>
-        </div>
-        <p className={styles['feed__item-description']}>{edge.node.frontmatter.description}<br /><br />
-        <Link className={styles['feed__item-readmore']} to={edge.node.fields.slug}>Read more<span class="sr-only"> about {edge.node.frontmatter.title}</span> &#8594;</Link></p><hr class="hr-last" />
-      </div>
-    ))}
+    {edges.map((edge) => {
+      if (edge.node.frontmatter.next) return <PostNext {...edge} />
+      return <PostTeaser {...edge} />
+    })}
   </div>
-);
+  )
+};
 
 export default Feed;

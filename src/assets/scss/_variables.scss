@@ -3,10 +3,10 @@
  */
 
 // Colors
-$color-base: #222;
-$color-primary: #2ec4b6;
-$color-secondary: #E90909;
-$color-accent: #FF9F1c;
+$color-base: #222; // gray
+$color-primary: #2ec4b6; // teal
+$color-secondary: #E90909; // red
+$color-accent: #FF9F1c; // orange
 
 $color-white: #FFF;
 $color-gray: lighten($color-base, 30%);
@@ -18,6 +18,8 @@ $color-black: #000;
 $typographic-font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 
 $typographic-root-font-size: 100;
+$typographic-huge-font-size: 34px;
+$typographic-large-font-size: 28px;
 $typographic-base-font-size: 16px;
 $typographic-small-font-size: 14px;
 
