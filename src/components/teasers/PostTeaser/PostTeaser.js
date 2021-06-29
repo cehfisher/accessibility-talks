@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import moment from 'moment';
 import classNames from 'classnames';
-import styles from './PostTeaser.module.scss';
+import styles from './PostTeaser.scss';
 
 const PostTeaser = (props) => {
 
@@ -17,7 +17,8 @@ const PostTeaser = (props) => {
   return(
     <div className={classes} key={props.node.fields.slug}>
         <div className={styles['post__item-meta']}>
-          <time className={styles['post__item-meta-time']} dateTime={moment(props.node.frontmatter.date).format('MMMM D, YYYY')}>
+          <time className={'post__meta-time'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
+            {moment(props.node.frontmatter.date).format('MMMM YYYY')}
           </time>
           <span className={styles['post__item-meta-divider']} />
         </div>

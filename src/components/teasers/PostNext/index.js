@@ -6,30 +6,29 @@ import './PostNext.scss';
 const PostTeaser = (props) => {
 
   return(
-    <div className='post_next' key={props.node.fields.slug}>
-      <div className='post_next--meta'>
-        <div className="post_next--meta-data">
-          <time className={'post_next--meta-time'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
-            {moment(props.node.frontmatter.date).format('MMMM YYYY')}
-          </time>
-          <h2 className='post_next--title'>
-            <Link className='post_next--title-link' to={props.node.fields.slug}>{props.node.frontmatter.title}</Link>
-          </h2>
-        </div>
+    <div className='post next' key={props.node.fields.slug}>
+      <div className='post__item-meta'>
+        <h2>Next Talk</h2>
+        <time className={'post__meta-time'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
+          {moment(props.node.frontmatter.date).format('MMMM YYYY')}
+        </time>
+        <h2 className='post__item-title'>
+          <Link className='post__item-title-link' to={props.node.fields.slug}>{props.node.frontmatter.title}</Link>
+        </h2>
       </div>
-      <div className='post_next--content'>
+      <div className='post__item-content'>
 
-        <div className='post_next--image'>
+        <div className='post__item-image'>
             <img
               src={props.node.frontmatter.socialImage}
               className='social-image'
               alt={props.node.frontmatter.subtitle}
             />
-            <h3 className="post_next--speaker">{props.node.frontmatter.subtitle}</h3>
+            <h3 className="post__item-speaker">{props.node.frontmatter.subtitle}</h3>
           </div>
-        <p className='post_next--description'>{props.node.frontmatter.description}
+        <p className='post__item-description'>{props.node.frontmatter.description}
         <br />
-        <Link className='post_next--readmore' to={props.node.fields.slug}>Read more<span class="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
+        <Link className='post__item-readmore' to={props.node.fields.slug}>Read more<span class="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
         </p>
       </div>
 
