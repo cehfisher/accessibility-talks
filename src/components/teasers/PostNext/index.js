@@ -9,12 +9,13 @@ const PostTeaser = (props) => {
     <div className='post-next' key={props.node.fields.slug}>
       <div className='post-next__item-meta'>
         <h2>Next Talk</h2>
-        <time className={'post-next__meta-time'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
+        <h3 className="post-next__item-speaker">{props.node.frontmatter.subtitle}</h3>
+        <time className={'post-next__item-date'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
           {moment(props.node.frontmatter.date).format('MMMM YYYY')}
         </time>
-        <h2 className='post-next__item-title'>
+        <h3 className='post-next__item-title'>
           <Link className='post__item-title-link' to={props.node.fields.slug}>{props.node.frontmatter.title}</Link>
-        </h2>
+        </h3>
       </div>
       <div className='post-next__item-content'>
 
@@ -24,7 +25,6 @@ const PostTeaser = (props) => {
               className='social-image-next'
               alt={props.node.frontmatter.subtitle}
             />
-            <h3 className="post-next__item-speaker">{props.node.frontmatter.subtitle}</h3>
           </div>
         <p className='post-next__item-description'>{props.node.frontmatter.description}
         <br />

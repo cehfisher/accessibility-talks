@@ -10,14 +10,13 @@ const PostTeaser = (props) => {
   const next = props.node.frontmatter.next === true;
   const classes = classNames(
     styles['post__item'],
-    { [`${styles['post__item-upcoming']}`]: upcoming},
     { [`${styles['post__item-next']}`]: next}
   );
 
   return(
     <div className={classes} key={props.node.fields.slug}>
         <div className={styles['post__item-meta']}>
-          <time className={'post__meta-time'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
+          <time className={'post__item-date'} dateTime={moment(props.node.frontmatter.date).format('MMMM YYYY')}>
             {moment(props.node.frontmatter.date).format('MMMM YYYY')}
           </time>
           <span className={styles['post__item-meta-divider']} />
