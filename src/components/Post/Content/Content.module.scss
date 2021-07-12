@@ -13,11 +13,14 @@
     margin-right: auto;
     font-weight: 600;
     text-align: center;
-    text-shadow: 0.5px 1.5px 0px $color-black;
     color: $color-primary;
     @include line-height(1.65);
     @include margin-top(1);
     @include margin-bottom(0)
+
+    @media (prefers-color-scheme: light) {
+      color: $color-black;
+    }
   }
 
   &__subtitle {

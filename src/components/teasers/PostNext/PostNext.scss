@@ -1,21 +1,46 @@
 @import '../../../assets/scss/variables';
 @import '../../../assets/scss/mixins';
 
-.post {
+.post-next {
   text-align: center;
+  padding: 1rem 2rem;
 
-  h3 {
-    @include margin-top(.5);
-    font-size: $typographic-small-font-size;
-    color: $color-gray-bg;
-    font-weight: 500;
+  h2 {
+    @include line-height(1.5);
+    @include margin-top(1);
+    @include margin-bottom(.05);
     text-transform: uppercase;
-    text-align: center;
+    color: $color-secondary;
+    font-size: $typographic-huge-font-size;
+    font-weight: 900;
+    float: none;
+    clear: both;
+
+    @include breakpoint-md {
+      @include margin-top(0);
+      float: left;
+    }
+  }
+
+  h3,
+  time.post-next__item-date {
+    @include line-height(1.5);
+    @include margin-top(0);
+    @include margin-bottom(.05);
+    text-transform: uppercase;
+    color: $color-accent;
+    font-size: $typographic-large-font-size;
+    font-weight: 500;
+    float: none;
+    clear: both;
+
+    @include breakpoint-md {
+      float: left;
+    }
   }
 
   &__item {
     padding: 1rem 2rem;
-    clear: both;
 
     &-next {
       border: 1px solid $color-gray-border;
@@ -42,6 +67,14 @@
 
       &-link {
         color: $color-primary;
+        text-transform: none;
+        float: none;
+        text-align: center;
+
+        @include breakpoint-md {
+          float: left;
+          text-align: left;
+        }
 
         &:hover,
         &:focus {
@@ -51,12 +84,12 @@
     }
 
     &-image {
-      min-width: 200px;
       text-align: center;
-
+      width: 100%;
 
       @include breakpoint-md {
-        margin-right: 2rem;
+        width: 45%;
+        float: right;
       }
     }
 
@@ -64,10 +97,13 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      width: 100%;
 
       @include breakpoint-md {
-        justify-content: space-evenly;
-        flex-direction: row;
+        justify-content: space-between;
+        flex-direction: column;
+        float: left;
+        width: 50%;
       }
     }
 
@@ -78,6 +114,12 @@
     }
 
     &-meta {
+      &-time {
+        font-size: $typographic-small-font-size;
+        color: $color-gray-bg;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
 
       &-divider {
         margin: 0 5px;
@@ -113,16 +155,13 @@
     margin-right: 0;
     margin-top: 0.5rem;
     float: none;
-    lost-column: 12/12;
   }
 
   @include breakpoint-md {
     text-align: left;
 
     .post__item-image {
-      margin-right: 0;
-      float: left;
-      lost-column: 3/12;
+      margin-left: 0;
       text-align: left;
 
       img {
@@ -133,10 +172,8 @@
     }
 
     .post__item-description {
-      float: right;
       margin-right: 0;
       margin-bottom: 1rem;
-      lost-column: 8/12;
     }
   }
 

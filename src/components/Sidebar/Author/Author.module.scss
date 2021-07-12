@@ -40,8 +40,7 @@
 
   @media (prefers-color-scheme: light) {
     &__title-link {
-      color: $color-primary;
-      text-shadow: 0.5px 1.5px 0px $color-black;
+      color: $color-black;
 
       &:hover,
       &:focus {

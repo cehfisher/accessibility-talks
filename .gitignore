@@ -7,3 +7,5 @@ npm-debug.log
 gatsby-starter-lumen.iml
 /public
 /package-lock.json
+.DS_Store
+**/.DS_Store
