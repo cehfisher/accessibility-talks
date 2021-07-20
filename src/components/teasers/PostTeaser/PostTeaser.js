@@ -36,7 +36,7 @@ const PostTeaser = (props) => {
             <Link className={styles['post__item-readmore']} to={props.node.fields.slug}>Read more<span class="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
           </p>
         </div>
-        <hr class="hr-last" />
+        <hr className="hr-last" />
       </div>
   )
 }

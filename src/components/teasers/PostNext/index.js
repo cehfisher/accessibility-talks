@@ -32,7 +32,7 @@ const PostTeaser = (props) => {
         </div>
       </div>
 
-      <hr class="hr-last" />
+      <hr className="hr-last" />
     </div>
   )
 }

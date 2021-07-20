@@ -1,19 +1,12 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 import Post from '../components/Post';
 import { useSiteMetadata } from '../hooks';
-import type { MarkdownRemark } from '../types';
 
-type Props = {
-  data: {
-    markdownRemark: MarkdownRemark
-  }
-};
 
-const PostTemplate = ({ data }: Props) => {
+const PostTemplate = ({ data }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
   const { title: postTitle, subtitle: postSubtitle, description: postDescription, socialImage } = frontmatter;
@@ -42,6 +35,11 @@ export const query = graphql`
         title
         subtitle
         socialImage
+        youtube
+        calendar
+        speaker
+        speakerTwitter
+        recorded
       }
     }
   }
