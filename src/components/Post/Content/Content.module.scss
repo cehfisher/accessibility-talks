@@ -35,13 +35,18 @@
     @include margin-bottom(0)
   }
 
-  &__body {
+  &__body,
+  &__meta {
     margin: 0 auto;
     text-align: center;
     word-break: break-word;
-    
+
     & p {
       clear: both;
+
+      &.content-meta-date {
+        margin-bottom: 1rem;
+      }
     }
 
     & figure {
