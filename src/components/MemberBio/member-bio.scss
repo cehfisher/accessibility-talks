@@ -1,16 +1,20 @@
 /*member bio*/
 .member-bio {
-  padding: 2em auto;
+  padding: 2rem auto;
 
   h2 {
-    margin-top: .67em;
-    margin-bottom: .67em;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
   }
 
   h3 {
     color: #29BCAD;
-    margin-top: .67em;
-    margin-bottom: .67em;
+    margin-top: 0.67rem;
+    margin-bottom: 0.67rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
   }
 
   /*.member-bio img, .member-bio h1, .member-bio h2{
@@ -20,8 +24,8 @@
 
   .bio-image{
     margin-right: 2rem;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
     border: 4px solid #ff9f1c;
     border-radius: 50%;
     text-align: center;
@@ -34,12 +38,14 @@
     border: 1px solid orange;
     width: 50%;
     float: left;
-    padding: 1em;
+    padding: 1rem;
+    margin-top: 1rem;
   }
   .member-social{
     width: 40%;
     float: left;
-    padding: 1em;
+    padding: 1rem;
+    margin-top: 1rem;
   }
   .social-links li{
     list-style-type: none;
