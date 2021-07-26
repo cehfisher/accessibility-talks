@@ -26,4 +26,3 @@ template: "page"
 - Pronouns
 - Twitter, LinkedIn, or other way people can easily contact you directly
 - Lastly, please provide us a "fun fact" or two that you'd like to share with the group so people can get to know you a bit better!
-- Hi Carie

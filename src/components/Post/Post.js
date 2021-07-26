@@ -17,9 +17,6 @@ const Post = ({ post }) => {
       <div className={styles['post__content']}>
         <Content body={html} {...frontmatter} />
       </div>
-
-      <hr />
-
       <div className={styles['post__footer']}>
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
       </div>
