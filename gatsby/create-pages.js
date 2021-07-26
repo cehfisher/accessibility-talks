@@ -50,17 +50,25 @@ const createPages = async ({ graphql, actions }) => {
   const { edges } = result.data.allMarkdownRemark;
 
   _.each(edges, (edge) => {
-    if (_.get(edge, 'node.frontmatter.template') === 'page') {
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/page-template.js'),
-        context: { slug: edge.node.fields.slug }
-      });
+    const template = _.get(edge, 'node.frontmatter.template');
+    let component = null;
+    switch (template) {
+      case 'page':
+        component = './src/templates/page-template.js';
+        break;
+      case 'post':
+        component = './src/templates/post-template.js';
+        break;
+      case 'member':
+        component = './src/templates/member-template.js';
+        break;
+      default:
+        component = null;
     }
-    else if (_.get(edge, 'node.frontmatter.template') === 'post') {
+    if (component) {
       createPage({
         path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/post-template.js'),
+        component: path.resolve(component),
         context: { slug: edge.node.fields.slug }
       });
     }
