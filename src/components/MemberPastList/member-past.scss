@@ -1,0 +1,18 @@
+
+
+.past-members{
+  padding-top: 2em;
+  .past-members-grid {
+    display: flex;
+    .volunteer {
+      padding-left: 1rem;
+      width: 33%;
+    }
+    a {
+      &:after {
+        content: '→';
+        padding-left: 10px;
+      }
+    }
+  }
+}

@@ -1,6 +1,7 @@
 ---
 template: "member"
 draft: false
+current: true
 slug: "carie-fisher"
 name: Carie Fisher
 title: Founder
