@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './member-past.scss';
+import './member-past.scss';
 
 const MemberPastList = (props) => {
 

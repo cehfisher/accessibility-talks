@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import styles from './member-card.scss';
+import './member-card.scss';
 
 const MemberCard = (props) => {
   return(
