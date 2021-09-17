@@ -1,6 +1,6 @@
 ---
 template: "member"
-draft: false
+draft: true
 current: true
 slug: "donna-bungard"
 name: Donna Bungard

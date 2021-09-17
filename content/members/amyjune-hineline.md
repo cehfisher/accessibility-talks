@@ -4,18 +4,19 @@ draft: false
 current: true
 slug: "amyjune-hineline"
 name: AmyJune Hineline
-title: Founder
+title: Aaron Winborn Award Winner
 pronouns: "she/her"
 callout:
-  - things
-  - she
-  - has
-  - done
+  - Aaron Winborn Award Winner
 social:
   - name: facebook
-    uri: "#"
+    uri: "https://www.facebook.com/volkswagenchick"
   - name: twitter
-    uri: '#'
-bio: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit."
-socialImage: "/photo.png"
+    uri: 'https://www.twitter.com/volkswagenchick'
+  - name: linkedin
+    uri: 'https://www.linkedin.com/in/volkswagenchick'
+bio: "AmyJune Hineline is an Open Source Community Ambassador. With a dual focus on both open-source community development and inclusivity, she is uniquely positioned to help individuals become more comfortable and confident as they contribute to their communities. She co-organizes various open-source globally, empowering individuals to forge deep community connections that benefit the whole. As a self-described non-coder, AmyJune helps communities discover how they can contribute and belong in more ways than coding.
+
+Her ongoing experience as a hospice nurse keeps her in touch with the challenges faced by many end-users. Outside of her mission in the technology community space, she has a deep love for mycology, geocaching, and air-cooled Volkswagens."
+socialImage: "/media/AmyJune-profile.png"
 ---

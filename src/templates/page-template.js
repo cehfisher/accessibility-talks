@@ -53,7 +53,16 @@ export const query = graphql`
         socialImage
       }
     }
-    current: allMarkdownRemark(filter: {frontmatter: {template: {eq: "member"}, current: {eq: true}}}) {
+    current: allMarkdownRemark(
+      sort: { fields: [frontmatter___name], order: ASC }
+      filter: {
+        frontmatter: {
+          template: {eq: "member"},
+          draft: {ne: true},
+          current: {eq: true}
+        }
+      }
+    ) {
       nodes {
         frontmatter {
           name
@@ -64,7 +73,16 @@ export const query = graphql`
         }
       }
     }
-    past: allMarkdownRemark(filter: {frontmatter: {template: {eq: "member"}, current: {eq: false}}}) {
+    past: allMarkdownRemark(
+      sort: { fields: [frontmatter___name], order: ASC }
+      filter: {
+        frontmatter: {
+          template: {eq: "member"},
+          current: {eq: false},
+          draft: {ne: true},
+        }
+      }
+    ) {
       nodes {
         frontmatter {
           name

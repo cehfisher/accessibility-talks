@@ -4,18 +4,11 @@ draft: false
 current: true
 slug: "carie-fisher"
 name: Carie Fisher
-title: Founder
+title: Senior Accessibility Consultant and Trainer at Deque Systems
 pronouns: "she/her"
-callout:
-  - things
-  - she
-  - has
-  - done
 social:
-  - name: facebook
-    uri: "#"
-  - name: twitter
-    uri: '#'
-bio: "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit."
-socialImage: "/photo.png"
+  - name: Twitter
+    uri: 'https://www.twitter.com/cariefisher'
+bio: "Carie Fisher is an author, speaker, and developer with over 15 years of tech experience who is passionate about the intersection of front-end code and UX, digital accessibility, and diversity in technology. Carie works as a Senior Accessibility Consultant and Trainer at Deque Systems while also pursuing her Ph.D. in Human-Computer Interactions at Iowa State University."
+socialImage: "/media/carie-fisher-profile.png"
 ---

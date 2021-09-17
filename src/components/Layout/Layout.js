@@ -5,19 +5,25 @@ import { withPrefix } from 'gatsby';
 import PropTypes from 'prop-types';
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
+import classNames from 'classnames';
 
 const Layout = ({
   children,
   title,
   description,
-  socialImage
+  socialImage,
+  type
 }) => {
   const { author, url } = useSiteMetadata();
   const metaImage = socialImage != null ? socialImage : author.photo;
   const metaImageUrl = url + withPrefix(metaImage);
+  const classes = classNames(
+    'layout',
+    {[`page__${type}`]: type}
+  );
 
   return (
-    <div className={styles.layout}>
+    <div className={classes}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

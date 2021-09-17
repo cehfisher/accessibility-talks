@@ -1,6 +1,6 @@
 ---
 template: "member"
-draft: false
+draft: true
 current: false
 name: Past Person
 social:
