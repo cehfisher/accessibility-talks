@@ -16,24 +16,24 @@ Name the file `YEAR-MON.md` (eg `2021-JAN.md`)
 
 Using Frontmatter for Markdown add the following fields:
 
-- title: Title of the Talk
-- subtitle: Name of Speaker
-- date: Date of Talk
-- template: "post"
-- draft: true or false depending on publication status.
-- slug: YYYY-MON entry. This will be the final URI of the entry.
-- category: I am not sure where this is used.
-- next: true or false depending on if its the next months talk (@todo: logic)
-- tags: An array of 5 tags, in alphabetic order, pertaining to the talk. Year should be the first.
-- description: Short description of the talk.
-- socialImage: Path to image in the `/static` folder
-- calendar: Link to the "Add to Calendar" link on the bio. (@todo: Have it removed after the event has passed.)
-- youtube: YouTube ID of the broadcast WITHOUT the `https://youtube` text.
-- recorded: The Date and Time of the event.
-- speaker: Actually used Speaker name.
-- speakerContact: An object with two fields.
-  - name: Name of the service. e.g. "Twitter"
-  - contact: Contact data (e.g. "@a11ytalks")
+- **title:** Title of the Talk
+- **subtitle:** Name of Speaker
+- **date:** Date of Talk
+- **template:** "post" (do not change)
+- **draft:** true or false depending on publication status.
+- **slug:** YYYY-MON entry. This will be the final URI of the entry.
+- **category:** Deprecated for `tags`
+- **next:** true or false depending on if its the next months talk (@todo: logic)
+- **tags:** An array of 5 tags, in alphabetic order, pertaining to the talk. Year should be the first.
+- **description:** Short description of the talk.
+- **socialImage:** Path to image in the `/static` folder
+- **calendar:** Full link to the "Add to Calendar" link on the bio. (*@todo:* Have it removed after the event has passed.)
+- **youtube:** YouTube ID of the broadcast WITHOUT the `https://youtube` text.
+- **recorded:** The Date and Time of the event.
+- **speaker:** Actually used Speaker name.
+- **speakerContact:** An object with two fields.
+  - **name:** Name of the service. e.g. "Twitter"
+  - **contact:** Contact data (e.g. "@a11ytalks")
 
 After the Frontmatter section, add the full body details of the talk.
 
