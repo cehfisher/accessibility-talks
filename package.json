@@ -45,6 +45,7 @@
     "acorn": "^6.4.2",
     "babel-plugin-styled-components": "^1.13.1",
     "bluebird": "^3.7.2",
+    "breakpoint-sass": "^2.7.1",
     "classnames": "^2.3.1",
     "codecov": "^3.8.2",
     "codemirror": "^5.62.0",
