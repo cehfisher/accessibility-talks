@@ -1,18 +1,19 @@
 // @flow strict
 import React from 'react';
-import styles from './Content.module.scss';
+import './Content.scss';
 
 const Content = (props) => {
   const hasMeta = props.youtube || props.calendar || props.recorded || props.speaker;
   return(
-  <div className={styles['content']}>
-    <h1 className={styles['content__title']}>{props.title}</h1>
-    <h2 className={styles['content__subtitle']}>{props.subtitle}</h2>
-    <div className={styles['content__body']} dangerouslySetInnerHTML={{ __html: props.body }} />
-
+  <div className="content">
+    <h1 className="content__title">{props.title}</h1>
+    <h2 className="content__subtitle">{props.subtitle}</h2>
+    <div className="content__body"
+      dangerouslySetInnerHTML={{ __html: props.body }}
+    />
 
     { hasMeta && (
-      <div className={styles['content__meta']}>
+      <div className="content__meta">
         { props.youtube && <iframe title={props.title} src={`https://www.youtube.com/embed/${props.youtube}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> }
         { props.calendar && (
           <ul className="calendar">
