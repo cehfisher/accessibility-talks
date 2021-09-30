@@ -10,7 +10,7 @@ const MemberList = (props) => {
       <h2>Meet Our Members</h2>
       <div className="member-grid">
         { props.nodes.map((card, i) => (
-          <MemberCard link={card.fields.slug} {...card.frontmatter} index={`member-${i}`} />
+          <MemberCard link={card.fields.slug} {...card.frontmatter} key={`member-${i}`} />
         ))}
       </div>
     </section>

@@ -1,4 +1,5 @@
-
+@import '~breakpoint-sass/stylesheets/breakpoint';
+@import '../../assets/scss/variables';
 
 .past-members{
   padding-top: 2rem;
@@ -7,7 +8,10 @@
     display: flex;
     .volunteer {
       padding-left: 1rem;
-      width: 33%;
+      width: 100%;
+      @include breakpoint($small) {
+        width: 33%;
+      }
     }
     a {
       &:after {

@@ -17,7 +17,7 @@ social:
   - name: drupal
     uri: https://dgo.to/u/weekbeforenext
 
-bio: "werds..."
+bio: ""
 
-socialImage: "/photo.png"
+socialImage: "/media/April-Sides-Bio.png"
 ---

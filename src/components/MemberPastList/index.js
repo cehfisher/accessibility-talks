@@ -11,7 +11,7 @@ const MemberPastList = (props) => {
       { props.nodes.map((v, i) => {
         const l = v.frontmatter.social[0];
         return(
-        <div className="volunteer" index={`volunteer-${i}`}>
+        <div className="volunteer" key={`volunteer-${i}`}>
           <a href={l.uri} target="_blank" name={`${l.name} for ${v.frontmatter.name}`}>
             {v.frontmatter.name}
           </a>
