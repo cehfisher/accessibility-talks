@@ -22,5 +22,5 @@ bio: "Heather combines her love of tech with her eye for design to create produc
 
 Design thinking has become a lifestyle for Heather as she takes the creative process she has developed and applies the same concepts to her off-screen life as well. In fact, you can often find Heather testing out new tools, crafting with wood, working on home improvement projects or at her local maker space. "
 
-socialImage: "/photo.png"
+socialImage: "/media/heather-profile.png"
 ---
