@@ -28,5 +28,5 @@ Prior to her work in accessibility, Kat has won the Digital Government Achieveme
 
 As someone who loves peace and quiet, Kat happily lives in the countryside overlooking beautiful Perry Lake. She loves her close-knit family, consisting of her husband, three kids, a dog, and a cat, and she cherishes the small community she calls home. As an Air Force brat who moved a lot during her childhood, Kat lived in Texas, Florida, New Mexico, Japan, Maine, and Kansas. She’s also lived in Missouri (Kansas City) and Northern California. Japan was her favorite hands-down; Kat thinks it’s a beautiful place."
 
-socialImage: "/photo.png"
+socialImage: "/media/kat-profile.png"
 ---
