@@ -4,15 +4,14 @@ import styles from './Feed.module.scss';
 import PostTeaser from '../teasers/PostTeaser/PostTeaser';
 import PostNext from '../teasers/PostNext';
 
-const Feed = ({ edges }) => {
-
+const Feed = (props) => {
+  const { edges, next, future } = props;
 
   return(
   <div className={styles['feed']}>
-    {edges.map((edge) => {
-      if (edge.node.frontmatter.next) return <PostNext {...edge} />
-      return <PostTeaser {...edge} />
-    })}
+    { next && <PostNext {...next} />}
+    { future && future.map(edge => <PostTeaser {...edge} />)}
+    {edges.map(edge => <PostTeaser {...edge} />)}
   </div>
   )
 };
