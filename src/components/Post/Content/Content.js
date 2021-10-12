@@ -1,9 +1,13 @@
 // @flow strict
 import React from 'react';
+import { isBefore } from 'date-fns';
 import './Content.scss';
 
 const Content = (props) => {
   const hasMeta = props.youtube || props.calendar || props.recorded || props.speaker;
+
+  const d = new Date(props.date);
+  const before = isBefore(d, new Date());
   return(
   <div className="content">
     <h1 className="content__title">{props.title}</h1>
@@ -15,7 +19,7 @@ const Content = (props) => {
     { hasMeta && (
       <div className="content__meta">
         { props.youtube && <iframe title={props.title} src={`https://www.youtube.com/embed/${props.youtube}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> }
-        { props.calendar && (
+        { props.calendar && !before && (
           <ul className="calendar">
             <li className="calendar__list-item">
               <a target="_blank" href={props.calendar}>Add to Google Calendar</a>
@@ -27,7 +31,7 @@ const Content = (props) => {
 
         {props.recorded && (
           <p className="content-meta-date">
-            <b>Recorded:</b> {props.recorded}
+            <b>{before ? "Recorded" : "Recording"}:</b> {props.recorded}
           </p>
         )}
         {props.speaker && (
