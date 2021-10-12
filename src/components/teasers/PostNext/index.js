@@ -27,7 +27,7 @@ const PostTeaser = (props) => {
             </div>
             <p className='post-next__item-description'>{props.node.frontmatter.description}
               <br /><br />
-              <Link className='post-next__item-readmore' to={props.node.fields.slug}>Read more<span class="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
+              <Link className='post-next__item-readmore' to={props.node.fields.slug}>Read more<span className="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
             </p>
         </div>
       </div>

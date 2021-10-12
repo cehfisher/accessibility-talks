@@ -38,7 +38,10 @@ export const query = graphql`
         youtube
         calendar
         speaker
-        speakerTwitter
+        speakerContact {
+          name
+          contact
+        }
         recorded
       }
     }

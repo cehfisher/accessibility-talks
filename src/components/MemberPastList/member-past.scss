@@ -1,0 +1,23 @@
+@import '~breakpoint-sass/stylesheets/breakpoint';
+@import '../../assets/scss/variables';
+
+.past-members{
+  padding-top: 2rem;
+
+  .past-members-grid {
+    display: flex;
+    .volunteer {
+      padding-left: 1rem;
+      width: 100%;
+      @include breakpoint($small) {
+        width: 33%;
+      }
+    }
+    a {
+      &:after {
+        content: '→';
+        padding-left: 1rem;
+      }
+    }
+  }
+}

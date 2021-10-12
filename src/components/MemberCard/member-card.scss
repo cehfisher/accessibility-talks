@@ -1,0 +1,25 @@
+@import '~breakpoint-sass/stylesheets/breakpoint';
+@import '../../assets/scss/variables';
+
+.member-card{
+  width: 50%;
+  text-align: center;
+  margin-bottom: 2rem;
+
+  @include breakpoint($medium) {
+    width: 33%;
+  }
+
+  .social-image{
+    width: 60%;
+    margin: 1rem auto;
+    float: none;
+    text-align: center;
+  }
+  h3{
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}

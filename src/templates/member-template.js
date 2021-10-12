@@ -13,7 +13,7 @@ const MemberTemplate = ({ data }) => {
   const metaDescription = pageDescription !== null ? pageDescription : siteSubtitle;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} subtitle={pageTitle} description={metaDescription} socialImage={socialImage} >
+    <Layout title={`${pageTitle} - ${siteTitle}`} subtitle={pageTitle} description={metaDescription} socialImage={socialImage} type="memberBio" >
       <Sidebar />
       <MemberBio {...frontmatter} />
     </Layout>

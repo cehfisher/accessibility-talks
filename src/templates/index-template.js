@@ -1,4 +1,3 @@
-// @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
@@ -7,6 +6,7 @@ import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
+import { isBefore } from 'date-fns';
 
 const IndexTemplate = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
@@ -21,10 +21,26 @@ const IndexTemplate = ({ data, pageContext }) => {
 
   const { edges } = data.allMarkdownRemark;
 
-  // Sort so next talk is always on top.
-  edges.sort((a, b) => {
-    return a.node.frontmatter.next === true ? -1 : b.node.frontmatter.next === true ? 1 : 0;
-  })
+  // Gather future posts.
+  const future = edges.filter((a) => {
+    const d = new Date(a.node.frontmatter.date);
+    return isBefore(new Date(), d);
+  }).
+  // Reverse sort them.
+  sort((a, b) => {
+    const ad = new Date(a.node.frontmatter.date);
+    const bd = new Date(b.node.frontmatter.date);
+    if (isBefore(ad, bd)) return -1;
+    else return 1;
+  });
+  // Pop out the next one. (first in list).
+  const next = future.shift();
+
+  // Remove future posts for the rest.
+  const past = edges.filter((a) => {
+    const d = new Date(a.node.frontmatter.date);
+    return isBefore(d, new Date());
+  });
 
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;
 
@@ -32,7 +48,7 @@ const IndexTemplate = ({ data, pageContext }) => {
     <Layout title={pageTitle} description={siteSubtitle}>
       <Sidebar isIndex />
       <Page>
-        <Feed edges={edges} />
+        <Feed edges={past} next={next} future={future} />
         <Pagination
           prevPagePath={prevPagePath}
           nextPagePath={nextPagePath}
@@ -49,7 +65,12 @@ export const query = graphql`
     allMarkdownRemark(
         limit: $postsLimit,
         skip: $postsOffset,
-        filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } },
+        filter: {
+          frontmatter: {
+            template: { eq: "post" },
+            draft: { ne: true }
+          }
+        },
         sort: { order: DESC, fields: [frontmatter___date] }
       ){
     edges {
@@ -67,6 +88,7 @@ export const query = graphql`
           description
           next
         }
+        html
       }
     }
   }

@@ -33,8 +33,8 @@ const Content = (props) => {
         {props.speaker && (
           <p className="content-speaker-data">
             <b>Speaker:</b> {props.speaker}
-            {props.speakerTwitter && (
-              <span className="speakerTwitter">(Twitter - {props.speakerTwitter})</span>
+            {props.speakerContact && (
+              <span className="speakerContact">({props.speakerContact.name} - {props.speakerContact.contact})</span>
             )}
           </p>
         )}
