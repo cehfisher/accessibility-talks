@@ -4,7 +4,7 @@ draft: false
 current: true
 slug: "mark-casias"
 name: Mark Casias
-title: Technical Lead at Kanopi Studios
+title: Technical Lead
 social:
   - name: Twitter
     uri: 'https://www.twitter.com/drunkendrupal'

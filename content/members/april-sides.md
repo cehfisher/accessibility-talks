@@ -4,7 +4,7 @@ draft: false
 current: true
 slug: "april-sides"
 name: April Sides
-title: Senior Developer at Lullabot
+title: Senior Developer
 pronouns: she/they
 callout:
   - Lead organizer of Drupal Camp Asheville

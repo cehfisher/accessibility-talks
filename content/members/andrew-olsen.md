@@ -4,7 +4,7 @@ draft: false
 current: true
 slug: "andrew-olson"
 name: 'Andrew Olson'
-title: 'Lead Front-end Developer at Bounteous'
+title: 'Lead Front-end Developer'
 pronouns: 'he/him'
 callout:
   - Co-maintainer of the Live Captioning Initiative

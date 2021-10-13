@@ -4,7 +4,7 @@ draft: false
 current: true
 slug: "kat-shaw"
 name: Kat Shaw
-title: Senior Front-end Developer, Lullabot
+title: Senior Front-end Developer
 pronouns: She/Her
 callout:
   - Certified Professional in Accessibility Core Competencies (CPACC) and IAAP Member
