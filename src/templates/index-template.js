@@ -23,8 +23,10 @@ const IndexTemplate = ({ data, pageContext }) => {
 
   // Gather future posts.
   const future = edges.filter((a) => {
+    const dd = new Date();
+    dd.setDate(dd.getDate() -1);
     const d = new Date(a.node.frontmatter.date);
-    return isBefore(new Date(), d);
+    return isBefore(dd, d);
   }).
   // Reverse sort them.
   sort((a, b) => {
@@ -38,8 +40,10 @@ const IndexTemplate = ({ data, pageContext }) => {
 
   // Remove future posts for the rest.
   const past = edges.filter((a) => {
+    const dd = new Date();
+    dd.setDate(dd.getDate() - 1);
     const d = new Date(a.node.frontmatter.date);
-    return isBefore(d, new Date());
+    return isBefore(d, dd);
   });
 
   const pageTitle = currentPage > 0 ? `Posts - Page ${currentPage} - ${siteTitle}` : siteTitle;

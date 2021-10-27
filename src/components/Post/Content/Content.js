@@ -7,6 +7,7 @@ const Content = (props) => {
   const hasMeta = props.youtube || props.calendar || props.recorded || props.speaker;
 
   const d = new Date(props.date);
+  d.setDate(d.getDate + 1);
   const before = isBefore(d, new Date());
   return(
   <div className="content">

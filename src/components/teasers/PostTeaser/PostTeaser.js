@@ -6,11 +6,8 @@ import styles from './PostTeaser.module.scss';
 
 const PostTeaser = (props) => {
 
-  const upcoming = moment(props.node.frontmatter.date).unix() > moment().unix();
-  const next = props.node.frontmatter.next === true;
   const classes = classNames(
-    styles['post__item'],
-    { [`${styles['post__item-next']}`]: next}
+    styles['post__item']
   );
 
   return(
