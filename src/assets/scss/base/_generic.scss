@@ -1,13 +1,13 @@
-/** 
+/**
  * Generic
  */
 .sr-only:not(:focus):not(:active) {
-  clip: rect(0 0 0 0); 
+  clip: rect(0 0 0 0);
   clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
-  white-space: nowrap; 
+  white-space: nowrap;
   width: 1px;
 }
 
@@ -227,12 +227,13 @@ time.post__item-date {
 }
 
 .calendar {
-  @include margin-bottom(.5);
-  list-style: none;
   margin: 0 -10px;
+  @include margin-bottom(.5);
+  margin-top: 1rem;
+  list-style: none;
   padding: 0;
   text-align: center !important;
-  
+
   & li {
     display: inline-block;
     margin: 10px 5px;
@@ -278,7 +279,7 @@ time.post__item-date {
   .float-left {
     float: left;
   }
-  
+
   iframe {
     min-width: 650px;
     min-height: 365px;

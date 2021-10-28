@@ -35,6 +35,11 @@
     @include margin-bottom(0)
   }
 
+  &__footnote {
+    font-size: .75em;
+    text-align: right;
+  }
+
   &__body,
   &__meta {
     margin: 0 auto;

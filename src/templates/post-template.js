@@ -36,6 +36,7 @@ export const query = graphql`
         subtitle
         socialImage
         youtube
+        footnote
         calendar
         speaker
         speakerContact {

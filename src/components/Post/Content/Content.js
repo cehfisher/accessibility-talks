@@ -20,6 +20,7 @@ const Content = (props) => {
     { hasMeta && (
       <div className="content__meta">
         { props.youtube && <iframe title={props.title} src={`https://www.youtube.com/embed/${props.youtube}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> }
+        { props.footnote && <div className="content__footnote">* {props.footnote}</div>}
         { props.calendar && !before && (
           <ul className="calendar">
             <li className="calendar__list-item">
