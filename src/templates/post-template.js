@@ -39,6 +39,12 @@ export const query = graphql`
         footnote
         calendar
         speaker
+        speakers {
+          name
+          pronouns
+          title
+          image
+        }
         speakerContact {
           name
           contact

@@ -12,7 +12,23 @@ const Content = (props) => {
   return(
   <div className="content">
     <h1 className="content__title">{props.title}</h1>
-    <h2 className="content__subtitle">{props.subtitle}</h2>
+    { props.subtitle && <h2 className="content__subtitle">{props.subtitle}</h2> }
+
+    { props.speakers && props.speakers.length && (
+      <div className="content__speakers">
+      {props.speakers.map(speaker => {
+        return (
+        <div className="content__speaker">
+          <div className="speaker-image">
+            <img src={speaker.image} />
+          </div>
+          <h2>{speaker.name}</h2>
+          <div className="speaker-pronouns">({speaker.pronouns})</div>
+          <div className="speaker-title">{speaker.title}</div>
+        </div>);
+      })}
+      </div>
+    )}
     <div className="content__body"
       dangerouslySetInnerHTML={{ __html: props.body }}
     />

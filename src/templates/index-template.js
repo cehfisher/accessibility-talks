@@ -87,8 +87,10 @@ export const query = graphql`
         frontmatter {
           socialImage
           title
+          speaker
           subtitle
           date
+          time
           description
           next
         }

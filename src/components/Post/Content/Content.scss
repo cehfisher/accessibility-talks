@@ -40,6 +40,66 @@
     text-align: right;
   }
 
+  &__speakers {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+
+  &__speaker {
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: column;
+
+    h2 {
+      margin: 0 auto;
+      font-size: 1rem;
+      line-height: 1.4rem;
+    }
+    .speaker-pronouns {
+      font-size: .8rem;
+      margin: 0 auto;
+    }
+    .speaker-title {
+      text-align: center;
+      font-size: .9rem;
+    }
+    .speaker-image {
+      box-sizing: border-box;
+      position: relative;
+      width: 50%;
+      margin: 0 auto;
+      img {
+        width: 100%;
+        border-radius: 50%;
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 2px solid black;
+        border-radius: 50%;
+        left: 4px;
+        top: -4px;
+        z-index: -1;
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        background-color: red;
+        border-radius: 50%;
+        left: -5px;
+        top: -8px;
+        z-index: -2;
+      }
+    }
+  }
+
   &__body,
   &__meta {
     margin: 0 auto;
