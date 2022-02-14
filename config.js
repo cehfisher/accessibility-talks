@@ -42,7 +42,7 @@ module.exports = {
       github: 'cehfisher/accessibility-talks',
       rss: '',
       linkedin: '',
-      paypal: 'cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=E8BMJDKKNFURE&source=url',
+      oc: 'https://opencollective.com/a11ytalks',
     }
   }
 };

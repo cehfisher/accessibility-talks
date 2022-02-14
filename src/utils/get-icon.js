@@ -53,6 +53,9 @@ const getIcon = (name) => {
     case 'paypal':
       icon = ICONS.PAYPAL;
       break;
+    case 'oc':
+      icon = ICONS.OC;
+      break;
     default:
       icon = {};
       break;
