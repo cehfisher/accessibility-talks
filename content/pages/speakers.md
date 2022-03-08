@@ -27,7 +27,7 @@ We have held panels, demos, and interview events in the past as well - so the fo
 Before your event, we send you a link to your personalized Streamyard meeting and another link for the YouTube live-stream. Please share only the YouTube live-stream link with your network, as the Streamyard link is only for you and the host. We also send a Google Calendar invite so you can reserve the time to avoid scheduling conflicts.
 
 ##Promotion
-From the information you provide to us about your talk, we will create a flyer for advertising purposes. You can see an example of a flyer below. You will be shown the flyer before it is public and can suggest edits. Once approved, we post this flyer on various community channels, such as LinkedIn and [Twitter](https://twitter.com/A11YTalks).
+From the information you provide to us about your talk, we will create a flyer for advertising purposes. You can see an example of a flyer below. You will be shown the flyer before it is public and can suggest edits. Once approved, we post this flyer on various community channels, such as LinkedIn and [Twitter](https://twitter.com/A11YTalks). See an [example of an individual speaker flyer](/media/A11yTalks-Dec2021.png).
 
 ##Preparation
 We offer practice time to get used to the technology. This practice is optional, but at the very least, we do need you to report to the room **10-15 minutes before your talk** to test the audio/video and fix any last-minute technical issues. You are not required to share your video.
