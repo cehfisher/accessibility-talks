@@ -43,6 +43,8 @@ Make sure to prepare your presentation space and consider the following tips:
 
 We have provided ASL (American Sign Language) interpreters for past events. Please let us know your needs so we can coordinate to provide accommodations. The earlier you can share your accommodations with us, the better chance we will have to meet your needs in time for the event.
 
+Once you’ve gathered materials for your talk, please email it to team [at] a11ytalks [dot] com
+
 ##During the Event
 Questions from the audience are encouraged during our events. The host for the event captures, curates, and reviews all questions for you to discuss at the end of your presentation during the Q&A time. You also have the ability through StreamYard to answer questions as they arise throughout your presentation. For the Q&A at the end of your presentation, StreamYard allows us to visually display the questions asked, however, the host makes sure that all questions are read aloud, so all attendees know what you are answering. For any unanswered questions, we can share them via a Twitter thread to answer them later.
 
