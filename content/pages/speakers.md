@@ -12,6 +12,8 @@ We are excited to hear what accessibility, UX, or inclusion-based topic you want
 - **Agree to our Code of Conduct** - We require all speakers and participants to adhere to our [Code of Conduct](/pages/conduct). A11yTalks seeks to provide a friendly, safe, and accessible environment. The Code of Conduct applies to all community interactions and events. We make a conscious effort to include PwD, BIPOC, LGBTQIA+, women, and other marginalized groups in tech in our speaker line-up.
 - **Fun fact** - Lastly, please provide us with a "fun fact" or two that you'd like to share with our host for the event. The fun fact “breaks the ice” at the start of the talk and also allows our audience to get to know you a bit better.
 
+Once you’ve gathered materials for your talk, please email it to team [at] a11ytalks [dot] com
+
 ##Speaking Engagement Details
 We are using [Streamyard](https://streamyard.com/resources/docs/getting-started) for our virtual meetings, which is streamed live on our [YouTube channel](https://www.youtube.com/c/AccessibilityTalks). After the event, the live-stream is converted to a video with captions, and posted to our YouTube channel archives. We are using a [Creative Commons license](https://support.google.com/youtube/answer/2797468?hl=en&ref_topic=2778546), so you always own your content, but you agree to let us host your content on your behalf.
 
@@ -42,8 +44,6 @@ Make sure to prepare your presentation space and consider the following tips:
 - If you plan on using your camera, avoid shining any direct lighting into the camera. Reposition or switch off light sources as needed.
 
 We have provided ASL (American Sign Language) interpreters for past events. Please let us know your needs so we can coordinate to provide accommodations. The earlier you can share your accommodations with us, the better chance we will have to meet your needs in time for the event.
-
-Once you’ve gathered materials for your talk, please email it to team [at] a11ytalks [dot] com
 
 ##During the Event
 Questions from the audience are encouraged during our events. The host for the event captures, curates, and reviews all questions for you to discuss at the end of your presentation during the Q&A time. You also have the ability through StreamYard to answer questions as they arise throughout your presentation. For the Q&A at the end of your presentation, StreamYard allows us to visually display the questions asked, however, the host makes sure that all questions are read aloud, so all attendees know what you are answering. For any unanswered questions, we can share them via a Twitter thread to answer them later.
