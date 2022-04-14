@@ -16,4 +16,8 @@
   margin-left: .2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  @media (forced-colors: active) {
+    fill: linkText;
+  }
 }
