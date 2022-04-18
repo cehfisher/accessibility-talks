@@ -30,6 +30,11 @@ module.exports = {
       label: 'Code of Conduct',
       path: '/pages/conduct'
     },
+    {
+      label: 'Store',
+      path: 'https://www.redbubble.com/people/a11ytalks/works/39136088-accessibility-a11y-cats',
+      external: true
+    }
   ],
   author: {
     name: 'A11yTalks',
