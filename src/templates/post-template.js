@@ -9,11 +9,13 @@ import { useSiteMetadata } from '../hooks';
 const PostTemplate = ({ data }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
   const { frontmatter } = data.markdownRemark;
-  const { title: postTitle, subtitle: postSubtitle, description: postDescription, socialImage } = frontmatter;
+  const { title: postTitle, subtitle: postSubtitle, description: postDescription, socialImage, preview } = frontmatter;
   const metaDescription = postDescription !== null ? postDescription : siteSubtitle;
 
+  const img = preview ? preview : socialImage;
+
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} subtitle={postSubtitle} description={metaDescription} socialImage={socialImage} >
+    <Layout title={`${postTitle} - ${siteTitle}`} subtitle={postSubtitle} description={metaDescription} socialImage={img} >
       <Post post={data.markdownRemark} />
     </Layout>
   );
@@ -39,6 +41,7 @@ export const query = graphql`
         footnote
         calendar
         speaker
+        preview
         speakerContact {
           name
           contact
