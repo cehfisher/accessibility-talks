@@ -1,14 +1,12 @@
 // @flow strict
 import React from 'react';
-import { isBefore } from 'date-fns';
+import { isBefore, addHours } from 'date-fns';
 import './Content.scss';
 
 const Content = (props) => {
   const hasMeta = props.youtube || props.calendar || props.recorded || props.speaker;
-
   const d = new Date(props.date);
-  d.setDate(d.getDate + 1);
-  const before = isBefore(d, new Date());
+  const before = isBefore(addHours(d, 1), new Date());
   return(
   <div className="content">
     <h1 className="content__title">{props.title}</h1>
