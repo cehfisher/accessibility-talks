@@ -18,7 +18,7 @@ const Content = (props) => {
     { hasMeta && (
       <div className="content__meta">
         { props.youtube && <iframe title={props.title} src={`https://www.youtube.com/embed/${props.youtube}`} allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> }
-        { !props.youtube && <img className="content__preview" src={props.preview} /> }
+        { !props.youtube && <img className="content__preview" src={props.preview} alt={`Preview image for ${props.title} session. Image repeats title and description above, with an image of the speaker.`} /> }
         { props.footnote && <div className="content__footnote">* {props.footnote}</div>}
         { props.calendar && !before && (
           <ul className="calendar">
