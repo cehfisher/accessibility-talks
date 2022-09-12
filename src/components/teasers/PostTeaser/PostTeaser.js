@@ -22,7 +22,8 @@ const PostTeaser = (props) => {
           <Link className={styles['post__item-title-link']} to={props.node.fields.slug}>{props.node.frontmatter.title}</Link>
         </h2>
         <div className={styles['post__item-content']}>
-          <div className={styles['post__item-image']}><img
+          <div className={styles['post__item-image']}>
+            <img
               src={props.node.frontmatter.socialImage}
               className={'social-image'}
               alt=""
@@ -30,7 +31,7 @@ const PostTeaser = (props) => {
             <h3 className={styles['post__item-subtitle']}>{props.node.frontmatter.subtitle}</h3>
           </div>
             <p className={styles['post__item-description']}>{props.node.frontmatter.description}<br /><br />
-            <Link className={styles['post__item-readmore']} to={props.node.fields.slug}>Read more<span class="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
+            <Link className={styles['post__item-readmore']} to={props.node.fields.slug}>Read more<span className="sr-only"> about {props.node.frontmatter.title}</span> &#8594;</Link>
           </p>
         </div>
         <hr className="hr-last" />
