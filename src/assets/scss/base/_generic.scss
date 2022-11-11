@@ -293,3 +293,43 @@ time.post__item-date {
     color: $color-black;
   }
 }
+
+.centered {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    text-align: center;
+    margin: .25rem;
+    padding: .5rem;
+    p {
+      text-align: center;
+      margin-bottom: 0;
+
+      &.large {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+table.centered {
+  margin: 1rem auto;
+}
+
+td {
+  text-align: center;
+  &.left {
+    text-align: left;
+  }
+}
+
+.inverse {
+  color: white;
+  background: black;
+}

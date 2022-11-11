@@ -1,0 +1,179 @@
+---
+title: "Sponsorship"
+template: "page"
+---
+A11yTalks was started in 2017 by Carie Fisher to help bridge the gap between developers and accessibility professionals. Not long after, Donna Bungard and AmyJune Hineline joined the team and really helped this project get off the ground. We now have an even larger all-volunteer team who is passionately sustaining the project and we are fiscally hosted by Open Collective Foundation (501)(c)(3).
+Since its inception, we have hosted a variety of live talks and panels covering topics related to digital accessibility for beginners, developers, and creatives. All of these videos are streamed and then archived on the A11yTalks YouTube channel with cleaned up captions.
+Our content is available to the public as a free resource for digital accessibility education as well as continuing education credits for certified International Association of Accessibility Professionals (IAAP).
+Join us as we continue to create an accessible and fun space to learn, share, and grow digital accessibility knowledge in our community, through our mission and values.
+
+## Measuring our impact
+
+### A11yTalks YouTube stats
+
+*Last updated 11/19/2022*
+
+#### Lifetime
+<div class="cards">
+  <div class="card">
+    <p class="large">64</p>
+    <p>Archived videos</p>
+  </div>
+  <div class="card">
+    <p class="large">2.18k</p>
+    <p>YouTube subscribers</p>
+  </div>
+</div>
+
+#### Last 90 days
+
+<div class="cards">
+  <div class="card">
+    <p class="large">2.2k</p>
+    <p>Views</p>
+    <p>(27% more than previous 90 days)</p>
+  </div>
+  <div class="card">
+    <p class="large">288.3</p>
+    <p>Hours watched</p>
+    <p>(27% more than previous 90 days)</p>
+  </div>
+  <div class="card">
+    <p class="large">84+</p>
+    <p>New subscribers</p>
+    <p>(87% more than the previous 90 days)</p>
+  </div>
+</div>
+
+<h4 class="centered">Top 3 Videos</h4>
+<div class="cards">
+  <div class="card inverse">Cognitive Overloards - Alex Tait (A11yTalks - October 2022)</div>
+  <div class="card inverse">Representation Creates Reality - Keely Cat-Wells & Dan Edge (A11yTalks - August 2022)</div>
+  <div class="card inverse">Why We Need More Accessibility Designers - Anna E. Cook (A11yTalks - December 2021)</div>
+</div>
+
+## Budget Priorities for 2023
+
+| Priority | Item | Monthly Cost | Annual Cost |
+| -------- | ---- | ------------ | ----------- |
+| 1 | Live captions | $150 | $1,800 |
+| 2 | Speaker stipend | $100 | $1,200 |
+| 3 | Streaming service | $20 | $240 |
+| 4 | Live ASL interpreter | $300 | $3,600 |
+| 5 | Operations* | $54 | $645 |
+| | Total | $624 | $7,485 |
+* These costs are billed annually.
+
+### Live captions
+
+Staying true to our value of accessibility, high quality live captions are our top priority to ensure our live stream is accessible to as many people as possible. Our current vendor provides live human-generated captions.
+
+### Speaker stipend
+
+We believe in compensating our speakers for the time they spend creating amazing content and sharing it with our viewers.
+
+### Streaming service
+
+Streamyard is our tool of choice. A paid subscription gives us more flexibility and control in how our talks are presented, as well as remove the Streamyard logo from our live stream and videos.
+
+### Live ASL interpreter
+
+Including live ASL interpretation would allow us to reach even more people than captions and further increase the accessibility of our content. See Shattering Assumptions About Deafness - Meryl Evans for an example of our content delivered in ASL for viewers.
+
+### Operations
+
+Operations include necessary technical items such as domain renewal, web hosting, etc. We have also included general liability insurance, which would protect the A11yTalks project from claims like libel or slander.
+
+## Join us
+
+Our organization is fiscally hosted by, ​Open Collective Foundation 501(c)(3), which means financial contributions are tax deductible.
+
+### Individuals: Join the A11yCat Club
+
+You can set-up a Monthly Recurring Donation or a One-time Donation through our Open Collective page. Each level has some contributor benefits as our way of saying “Thanks for being a part of A11yTalks!”
+To receive your A11yCat T-shirt and/or sticker, please follow the instructions on your donation confirmation email from Open Collective. These will be mailed out in monthly batches. Email us at “team [at] a11ytalks [dot] com” if you think we’ve missed you. We promise it wasn’t on purpose.
+
+<table class="centered">
+<thead class="inverse">
+<tr>
+ <th colspan="4">Join the A11yCat Club (Monthly Recurring)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td></td>
+  <td>$5/month<br/>($60/year, $0.16/day)</td>
+  <td>$15/month<br/>($180/year, $0.50/day)</td>
+  <td>$25/month<br/>($300/year, $0.83/day)</td>
+</tr>
+<tr>
+  <td class="left">Name listed as a donor on website</td>
+  <td>X</td>
+  <td>x</td>
+  <td>x</td>
+</tr>
+<tr>
+  <td class="left">Name on slide at the beginning of<br/>each A11yTalk</td>
+  <td>X</td>
+  <td>x</td>
+  <td>x</td>
+</tr>
+<tr>
+  <td class="left">A11yCat sticker</td>
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td class="left">A11yCat T-shirt</td>
+  <td>X</td>
+  <td>x</td>
+  <td>x</td>
+</tr>
+</tbody>
+</table>
+
+<table class="centered">
+<thead class="inverse">
+<tr>
+ <th colspan="4">Join the A11yCat Club (One-Time Donation)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td></td>
+  <td>$25 donation</td>
+  <td>$100 donation</td>
+  <td>$250 donation</td>
+</tr>
+<tr>
+  <td class="left">Name listed as a donor on website</td>
+  <td>X</td>
+  <td>x</td>
+  <td>x</td>
+</tr>
+<tr>
+  <td class="left">A11yCat sticker</td>
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td class="left">A11yCat T-shirt</td>
+  <td>X</td>
+  <td>x</td>
+  <td>x</td>
+</tr>
+</tbody>
+</table>
+
+### Organizations: Contact us
+
+We prefer to work with organizations who have a positive relationship with the web community and align with our mission and values. Please contact us if you are interested in supporting our project.
+
+Email: team [at] a11ytalks [dot] com
+Twitter: @A11yTalks
+
+## Contributor impact
+
+[dashboard showing project funds and projections]

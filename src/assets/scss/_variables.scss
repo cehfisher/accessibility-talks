@@ -29,7 +29,7 @@ $typographic-base-font-color: $color-base;
 $typographic-link-p-font-color: $color-secondary;
 $typographic-link-s-font-color: $color-primary;
 
-$typographic-leading: round(16 * ($typographic-root-font-size / 100) * $typographic-base-line-height);
+$typographic-leading: round(16 * (calc($typographic-root-font-size / 100)) * $typographic-base-line-height);
 
 // Buttons
 $button-height: 35px;
