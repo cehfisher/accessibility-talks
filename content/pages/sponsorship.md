@@ -108,9 +108,50 @@ To receive your A11yCat T-shirt and/or sticker, please follow the instructions o
 
 We prefer to work with organizations who have a positive relationship with the web community and align with our mission and values. Please contact us if you are interested in supporting our project.
 
-Email: team [at] a11ytalks [dot] com
-Twitter: @A11yTalks
+* Email: team [at] a11ytalks [dot] com
+* Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
 
-## Contributor impact
+## Measuring our impact
 
-[dashboard showing project funds and projections]
+### A11yTalks YouTube stats
+
+*Last updated 11/19/2022*
+
+#### Lifetime
+<div class="cards">
+  <div class="card">
+    <p class="large">64</p>
+    <p>Archived videos</p>
+  </div>
+  <div class="card">
+    <p class="large">2.18k</p>
+    <p>YouTube subscribers</p>
+  </div>
+</div>
+
+#### Last 90 days
+
+<div class="cards">
+  <div class="card">
+    <p class="large">2.2k</p>
+    <p>Views</p>
+    <p>(27% more than previous 90 days)</p>
+  </div>
+  <div class="card">
+    <p class="large">288.3</p>
+    <p>Hours watched</p>
+    <p>(27% more than previous 90 days)</p>
+  </div>
+  <div class="card">
+    <p class="large">84+</p>
+    <p>New subscribers</p>
+    <p>(87% more than the previous 90 days)</p>
+  </div>
+</div>
+
+<h4 class="centered">Top 3 Videos</h4>
+<div class="cards">
+  <div class="card inverse">Cognitive Overloards - Alex Tait (A11yTalks - October 2022)</div>
+  <div class="card inverse">Representation Creates Reality - Keely Cat-Wells & Dan Edge (A11yTalks - August 2022)</div>
+  <div class="card inverse">Why We Need More Accessibility Designers - Anna E. Cook (A11yTalks - December 2021)</div>
+</div>
