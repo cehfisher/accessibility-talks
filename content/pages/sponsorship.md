@@ -2,7 +2,7 @@
 title: "Sponsorship"
 template: "page"
 ---
-With your help, we can create the most accessible and fun space possible to learn, share, and grow digital accessibility knowledge in our community, through our mission and values.
+With your help, we can create the most accessible and fun space possible to learn, share, and grow digital accessibility knowledge in our community, through our [mission and values](/pages/mission).
 
 Since its inception, A11yTalks has hosted a variety of live talks and panels covering topics related to digital accessibility for beginners, developers, and creatives. All of these videos are streamed and then archived on the [A11yTalks YouTube channel](https://www.youtube.com/c/accessibilitytalks) with cleaned up captions.
 
@@ -18,7 +18,7 @@ Now, we need your support to help us meet our accessibility goals, compensate ou
 1. __Streaming service__ ($20/month, $240/annually):
 Streamyard is our tool of choice. A paid subscription gives us more flexibility and control in how our talks are presented, giving us all of the [features of the basic plan](https://streamyard.com/pricing).
 1. __Live American Sign Language interpreter__ ($300/month, $3,600/annually):
-Including live ASL interpretation would allow us to reach even more people than captions and further increase the accessibility of our content. See [Shattering Assumptions About Deafness](https://youtu.be/hTZqC6uVmuQ) - Meryl Evans for an example of our content delivered in ASL for viewers.
+Including live <abbr title="American Sign Language">ASL</abbr> interpretation would allow us to reach even more people than captions and further increase the accessibility of our content. See [Shattering Assumptions About Deafness](https://youtu.be/hTZqC6uVmuQ) - Meryl Evans for an example of our content delivered in ASL for viewers.
 1. __Operations__ ($54/month, $645/annually): Operations include necessary technical items such as domain renewal, web hosting, etc. We have also included general liability insurance, which would protect the A11yTalks project from claims like libel or slander. *These costs are billed annually.*
 
 ## How to give
@@ -27,7 +27,7 @@ Your financial contributions are tax deductible because A11yTalks is fiscally ho
 
 ### Individuals: Join the A11yCat Club
 
-You can set-up a Monthly Recurring Donation or a One-time Donation through our Open Collective page. Each level has some contributor benefits as our way of saying “Thanks for being a part of A11yTalks!”
+You can set-up a [Monthly Recurring Donation](https://opencollective.com//a11ytalks/contribute/a11ycat-club-36522) or a [One-time Donation](https://opencollective.com//a11ytalks/contribute/one-time-donation-47987) through our Open Collective page. Each level has some contributor benefits as our way of saying “Thanks for being a part of A11yTalks!”
 To receive your A11yCat T-shirt and/or sticker, please follow the instructions on your donation confirmation email from Open Collective. These will be mailed out in monthly batches. Email us at “team [at] a11ytalks [dot] com” if you think we’ve missed you. We promise it wasn’t on purpose.
 
 <table class="centered">
@@ -106,7 +106,7 @@ To receive your A11yCat T-shirt and/or sticker, please follow the instructions o
 
 ### Organizations: Contact us
 
-We prefer to work with organizations who have a positive relationship with the web community and align with our mission and values. Please contact us if you are interested in supporting our project.
+We prefer to work with organizations who have a positive relationship with the web community and align with our [mission and values](/pages/mission). Please contact us if you are interested in supporting our project.
 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
