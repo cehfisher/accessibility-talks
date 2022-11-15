@@ -12,19 +12,13 @@ In 2022, we assembled an [all-volunteer team](https://a11ytalks.com/pages/about)
 
 Now, we need your support to help us meet our accessibility goals, compensate our amazing speakers, and improve our live stream productions to provide the best value possible for our community.
 
-## Budget Priorities for 2023
+* How to give
+* Budget priorities
+* Measuring our impact
 
-1. __Live captions__ ($150/month, $1,800/annualy): Staying true to our value of accessibility, high quality live captions are our top priority to ensure our live stream is accessible to as many people as possible. Our current vendor provides live human-generated captions.
-1. __Speaker stipend__ ($100/month, $1,200/annually): We believe in compensating our speakers for the time they spend creating amazing content and sharing it with our viewers.
-1. __Streaming service__ ($20/month, $240/annually):
-Streamyard is our tool of choice. A paid subscription gives us more flexibility and control in how our talks are presented, giving us all of the [features of the basic plan](https://streamyard.com/pricing).
-1. __Live American Sign Language interpreter__ ($300/month, $3,600/annually):
-Including live <abbr title="American Sign Language">ASL</abbr> interpretation would allow us to reach even more people than captions and further increase the accessibility of our content. See [Shattering Assumptions About Deafness](https://youtu.be/hTZqC6uVmuQ) - Meryl Evans for an example of our content delivered in ASL for viewers.
-1. __Operations__ ($54/month, $645/annually): Operations include necessary technical items such as domain renewal, web hosting, etc. We have also included general liability insurance, which would protect the A11yTalks project from claims like libel or slander. *These costs are billed annually.*
+## <a name="give"></a>How to give
 
-## How to give
-
-Your financial contributions are tax deductible because A11yTalks is fiscally hosted by a non-profit, ​Open Collective Foundation 501(c)(3).
+Your financial contributions are tax-deductible because A11yTalks is fiscally hosted by a non-profit, Open Collective Foundation 501(c)(3).
 
 ### Individuals: Join the A11yCat Club
 
@@ -113,7 +107,77 @@ We prefer to work with organizations that have a positive relationship with the 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
 
-## Measuring our impact
+## <a name="budget"></a>Budget priorities
+
+<table class="centered">
+<thead class="inverse">
+<tr>
+ <th>Priority</th>
+ <th>Item</th>
+ <th>Monthly Cost</th>
+ <th>Annual Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>1</td>
+  <td><a href="#captions">Live captions</a></td>
+  <td>$150</td>
+  <td>$1,800</td>
+</tr>
+<tr>
+  <td>2</td>
+  <td><a href="#speakers">Speaker stipend</a></td>
+  <td>$100</td>
+  <td>$1,200</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td><a href="#streamyard">Streaming service</a></td>
+  <td>$20</td>
+  <td>$240</td>
+</tr>
+<tr>
+  <td>4</td>
+  <td><a href="#asl">Live ASL interpreter</a></td>
+  <td>$300</td>
+  <td>$3,600</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td><a href="#operations">Operations</a></td>
+  <td>$54</td>
+  <td>$645</td>
+</tr>
+<tr>
+  <td colspan="2" class="right">Total</td>
+  <td>$624</td>
+  <td>$7,485</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="captions"></a>Live captions
+
+Staying true to our value of accessibility, high quality live captions are our top priority to ensure our live stream is accessible to as many people as possible. Our current vendor provides live human-generated captions.
+
+### <a name="speakers"></a>Speaker stipend
+
+We believe in compensating our speakers for the time they spend creating amazing content and sharing it with our viewers.
+
+### <a name="streamyard"></a>Streaming service
+
+Streamyard is our tool of choice. A paid subscription gives us more flexibility and control in how our talks are presented, giving us all of the [features of the basic plan](https://streamyard.com/pricing).
+
+### <a name="asl"></a>Live ASL interpreter
+
+Including live American Sign Language (ASL) interpretation would allow us to reach even more people than captions and further increase the accessibility of our content. See [Shattering Assumptions About Deafness](https://youtu.be/hTZqC6uVmuQ) - Meryl Evans for an example of our content delivered in ASL for viewers.
+
+### <a name="operations"></a>Operations
+
+Operations include necessary technical items such as domain renewal, web hosting, etc. We have also included general liability insurance, which would protect the A11yTalks project from claims like libel or slander. *These costs are billed annually.*
+
+## <a name="impact"></a>Measuring our impact
 
 ### A11yTalks YouTube stats
 
