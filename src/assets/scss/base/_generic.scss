@@ -299,9 +299,10 @@ time.post__item-date {
 }
 
 .cards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  @include breakpoint-md {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
   .card {
     text-align: center;
@@ -335,4 +336,10 @@ td {
 .inverse {
   color: white;
   background: black;
+}
+
+.button {
+  border: 1px solid $color-accent;
+  border-radius: 5px;
+  padding: .5rem;
 }

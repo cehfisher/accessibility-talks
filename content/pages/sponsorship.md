@@ -218,7 +218,7 @@ Operations include necessary technical items such as domain renewal, web hosting
 
 <h4 class="centered">Top 3 Videos</h4>
 <div class="cards">
-  <div class="card"><a href="https://youtu.be/gcK0ZtWQQQg">Cognitive Overloards - Alex Tait (A11yTalks - October 2022)</a></div>
-  <div class="card"><a href="https://youtu.be/lUxKZv0LgZ0">Representation Creates Reality - Keely Cat-Wells & Dan Edge (A11yTalks - August 2022)</a></div>
-  <div class="card "><a href="https://youtu.be/dQVrfS74xyM">Why We Need More Accessibility Designers - Anna E. Cook (A11yTalks - December 2021)</a></div>
+  <div class="card button"><a href="https://youtu.be/gcK0ZtWQQQg">Cognitive Overloards<br/>Alex Tait<br/> (A11yTalks - October 2022)</a></div>
+  <div class="card button"><a href="https://youtu.be/lUxKZv0LgZ0">Representation Creates Reality<br/>Keely Cat-Wells & Dan Edge<br/>(A11yTalks - August 2022)</a></div>
+  <div class="card button"><a href="https://youtu.be/dQVrfS74xyM">Why We Need More Accessibility Designers<br/>Anna E. Cook<br/>(A11yTalks - December 2021)</a></div>
 </div>
