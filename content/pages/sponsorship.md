@@ -184,6 +184,7 @@ Operations include necessary technical items such as domain renewal, web hosting
 *Last updated 11/19/2022*
 
 #### Lifetime
+
 <div class="cards">
   <div class="card">
     <p class="large">64</p>
