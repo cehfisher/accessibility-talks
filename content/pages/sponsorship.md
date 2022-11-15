@@ -26,12 +26,8 @@ You can set-up a [Monthly Recurring Donation](https://opencollective.com//a11yta
 
 To receive your A11yCat coaster and/or sticker, please follow the instructions on your donation confirmation email from Open Collective. These will be mailed out in monthly batches. Email us at “team [at] a11ytalks [dot] com” if you think we’ve missed you. We promise it wasn’t on purpose.
 
+<h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/a11ycat-club-36522">Join the A11yCat Club</a></h4>
 <table class="centered">
-<thead>
-<tr>
- <th colspan="4"><a href="https://opencollective.com//a11ytalks/contribute/a11ycat-club-36522">Join the A11yCat Club</a></th>
-</tr>
-</thead>
 <tbody>
 <tr>
   <td></td>
@@ -66,12 +62,8 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
 </tbody>
 </table>
 
+<h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/one-time-donation-47987">Give a One-Time Donation</a></h4>
 <table class="centered">
-<thead>
-<tr>
- <th colspan="4"><a href="https://opencollective.com//a11ytalks/contribute/one-time-donation-47987">Give a One-Time Donation</a></th>
-</tr>
-</thead>
 <tbody>
 <tr>
   <td></td>
