@@ -12,11 +12,11 @@ In 2022, we assembled an [all-volunteer team](https://a11ytalks.com/pages/about)
 
 Now, we need your support to help us meet our accessibility goals, compensate our amazing speakers, and improve our live stream productions to provide the best value possible for our community.
 
-* How to give
-* Budget priorities
-* Measuring our impact
+* [How to give](#how-to-give)
+* [Budget priorities](#budget-priorities)
+* [Measuring our impact](#measuring-our-impact)
 
-## <a name="give"></a>How to give
+## How to give
 
 Your financial contributions are tax-deductible because A11yTalks is fiscally hosted by a non-profit, Open Collective Foundation 501(c)(3).
 
@@ -107,7 +107,7 @@ We prefer to work with organizations that have a positive relationship with the 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
 
-## <a name="budget"></a>Budget priorities
+## Budget priorities
 
 <table class="centered">
 <thead class="inverse">
@@ -121,25 +121,25 @@ We prefer to work with organizations that have a positive relationship with the 
 <tbody>
 <tr>
   <td>1</td>
-  <td><a href="#captions">Live captions</a></td>
+  <td><a href="#live-captions">Live captions</a></td>
   <td>$150</td>
   <td>$1,800</td>
 </tr>
 <tr>
   <td>2</td>
-  <td><a href="#speakers">Speaker stipend</a></td>
+  <td><a href="#speaker-stipend">Speaker stipend</a></td>
   <td>$100</td>
   <td>$1,200</td>
 </tr>
 <tr>
   <td>3</td>
-  <td><a href="#streamyard">Streaming service</a></td>
+  <td><a href="#streaming-service">Streaming service</a></td>
   <td>$20</td>
   <td>$240</td>
 </tr>
 <tr>
   <td>4</td>
-  <td><a href="#asl">Live ASL interpreter</a></td>
+  <td><a href="#live-als-interperter">Live ASL interpreter</a></td>
   <td>$300</td>
   <td>$3,600</td>
 </tr>
@@ -157,27 +157,27 @@ We prefer to work with organizations that have a positive relationship with the 
 </tbody>
 </table>
 
-### <a name="captions"></a>Live captions
+### Live captions
 
 Staying true to our value of accessibility, high quality live captions are our top priority to ensure our live stream is accessible to as many people as possible. Our current vendor provides live human-generated captions.
 
-### <a name="speakers"></a>Speaker stipend
+### Speaker stipend
 
 We believe in compensating our speakers for the time they spend creating amazing content and sharing it with our viewers.
 
-### <a name="streamyard"></a>Streaming service
+### Streaming service
 
 Streamyard is our tool of choice. A paid subscription gives us more flexibility and control in how our talks are presented, giving us all of the [features of the basic plan](https://streamyard.com/pricing).
 
-### <a name="asl"></a>Live ASL interpreter
+### Live ASL interpreter
 
 Including live American Sign Language (ASL) interpretation would allow us to reach even more people than captions and further increase the accessibility of our content. See [Shattering Assumptions About Deafness](https://youtu.be/hTZqC6uVmuQ) - Meryl Evans for an example of our content delivered in ASL for viewers.
 
-### <a name="operations"></a>Operations
+### Operations
 
 Operations include necessary technical items such as domain renewal, web hosting, etc. We have also included general liability insurance, which would protect the A11yTalks project from claims like libel or slander. *These costs are billed annually.*
 
-## <a name="impact"></a>Measuring our impact
+## Measuring our impact
 
 ### A11yTalks YouTube stats
 
@@ -218,7 +218,7 @@ Operations include necessary technical items such as domain renewal, web hosting
 
 <h4 class="centered">Top 3 Videos</h4>
 <div class="cards">
-  <div class="card inverse"><a href="https://youtu.be/gcK0ZtWQQQg">Cognitive Overloards - Alex Tait (A11yTalks - October 2022)</a></div>
-  <div class="card inverse"><a href="https://youtu.be/lUxKZv0LgZ0">Representation Creates Reality - Keely Cat-Wells & Dan Edge (A11yTalks - August 2022)</a></div>
-  <div class="card inverse"><a href="https://youtu.be/dQVrfS74xyM">Why We Need More Accessibility Designers - Anna E. Cook (A11yTalks - December 2021)</a></div>
+  <div class="card"><a href="https://youtu.be/gcK0ZtWQQQg">Cognitive Overloards - Alex Tait (A11yTalks - October 2022)</a></div>
+  <div class="card"><a href="https://youtu.be/lUxKZv0LgZ0">Representation Creates Reality - Keely Cat-Wells & Dan Edge (A11yTalks - August 2022)</a></div>
+  <div class="card "><a href="https://youtu.be/dQVrfS74xyM">Why We Need More Accessibility Designers - Anna E. Cook (A11yTalks - December 2021)</a></div>
 </div>
