@@ -15,6 +15,10 @@ module.exports = {
       path: '/pages/about'
     },
     {
+      label: 'Mission',
+      path: '/pages/mission'
+    },
+    {
       label: 'Accessibility',
       path: '/pages/accessibility'
     },
@@ -29,6 +33,10 @@ module.exports = {
     {
       label: 'Code of Conduct',
       path: '/pages/conduct'
+    },
+    {
+      label: 'Sponsorship',
+      path: '/pages/sponsorship'
     },
     {
       label: 'Store',

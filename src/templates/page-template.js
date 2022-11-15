@@ -22,9 +22,7 @@ const PageTemplate = ({ data }) => {
     <Layout title={`${pageTitle} - ${siteTitle}`} subtitle={pageSubtitle} description={metaDescription} socialImage={socialImage} >
       <Sidebar />
       <Page title={pageTitle}>
-        <div dangerouslySetInnerHTML={{ __html: pageBody }} />
-
-        { pageTitle === 'About' && (
+      { pageTitle === 'About' && (
           <div className="members-section">
             {(currentMembers.nodes.length > 0) && (
               <MemberList {...currentMembers} />
@@ -35,6 +33,8 @@ const PageTemplate = ({ data }) => {
             )}
           </div>
         )}
+
+        <div dangerouslySetInnerHTML={{ __html: pageBody }} />
       </Page>
     </Layout>
   );

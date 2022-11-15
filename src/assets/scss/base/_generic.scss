@@ -293,3 +293,53 @@ time.post__item-date {
     color: $color-black;
   }
 }
+
+.centered {
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  @include breakpoint-md {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .card {
+    text-align: center;
+    margin: .25rem;
+    padding: .5rem;
+    p {
+      text-align: center;
+      margin-bottom: 0;
+
+      &.large {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+table.centered {
+  margin: 1rem auto;
+}
+
+td {
+  text-align: center;
+  &.left {
+    text-align: left;
+  }
+  &.right {
+    text-align: right;
+  }
+}
+
+.inverse {
+  color: white;
+  background: black;
+}
+
+.button {
+  border: 1px solid $color-accent;
+  border-radius: 5px;
+  padding: .5rem;
+}
