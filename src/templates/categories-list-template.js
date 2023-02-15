@@ -1,7 +1,6 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import { Link } from 'gatsby';
 import kebabCase from 'lodash/kebabCase';
 import Sidebar from '../components/Sidebar';

@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import PropTypes from 'prop-types';
 import { useSiteMetadata } from '../../hooks';
-import styles from './Layout.module.scss';
+import './Layout.scss';
 import classNames from 'classnames';
 
 const Layout = ({
