@@ -82,7 +82,7 @@ module.exports = {
                       fields {
                         slug
                       }
-                      frontmatter {
+                      fronmatter {
                         title
                         subtitle
                         date
@@ -105,7 +105,7 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          'gatsby-remark-relative-images',
+          `gatsby-remark-relative-images`,
           {
             resolve: 'gatsby-remark-katex',
             options: {
@@ -133,7 +133,8 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    'gatsby-plugin-netlify',
+    `gatsby-plugin-netlify`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-styled-components`,
     },
@@ -200,7 +201,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
-      options: {
+      sassOptions: {
         includePaths: ['src/assets'],
         postCssPlugins: [...postCssPlugins],
         cssLoaderOptions: {

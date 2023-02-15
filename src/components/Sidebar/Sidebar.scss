@@ -8,14 +8,11 @@
         position: relative;
         padding: 25px 20px 0;
     }
-}
 
-@include breakpoint-sm {
-    .sidebar {
-      position: sticky;
-      top: 0;
-
-        lost-column: 4/12;
+    @include breakpoint-sm {
+        position: sticky;
+        top: 0;
+        max-width: 30vw;
         &__inner {
             padding: 30px 20px 0;
             &:after {
@@ -30,16 +27,13 @@
             }
         }
     }
-}
 
-@include breakpoint-md {
-    .sidebar {
-      position: sticky;
-      top: 0;
-
-        lost-column: 1/4;
+    @include breakpoint-md {
+        max-width: 20vw;
         &__inner {
-            padding: 30px;
+        padding: 30px;
         }
     }
+
 }
+

@@ -1,21 +1,15 @@
 // @flow strict
 import React from 'react';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Page from '../components/Page';
 import Pagination from '../components/Pagination';
 import { useSiteMetadata } from '../hooks';
-import type { AllMarkdownRemark, PageContext } from '../types';
 
-type Props = {
-  data: AllMarkdownRemark,
-  pageContext: PageContext
-};
 
-const TagTemplate = ({ data, pageContext }: Props) => {
+const TagTemplate = ({ data, pageContext }) => {
   const { title: siteTitle, subtitle: siteSubtitle } = useSiteMetadata();
 
   const {
