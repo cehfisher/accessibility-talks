@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Content from './Content';
 import Tags from './Tags';
-import styles from './Post.module.scss';
+import './Post.scss';
 
 const Post = ({ post }) => {
   const { html, fields, frontmatter } = post;
@@ -11,13 +11,13 @@ const Post = ({ post }) => {
   const { tags } = frontmatter;
 
   return (
-    <main className={styles['post']}>
-      <Link className={styles['post__home-button']} to="/">Home</Link>
+    <main className='post'>
+      <Link className='post__home-button' to="/">Home</Link>
 
-      <div className={styles['post__content']}>
+      <div className='post__content'>
         <Content body={html} {...frontmatter} />
       </div>
-      <div className={styles['post__footer']}>
+      <div className='post__footer'>
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
       </div>
     </main>

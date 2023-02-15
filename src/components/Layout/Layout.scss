@@ -1,0 +1,10 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.layout {
+  display: block;
+
+  @include breakpoint-sm {
+    display: flex;
+  }
+}
