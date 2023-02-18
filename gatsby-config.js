@@ -73,8 +73,8 @@ module.exports = {
               {
                 allMarkdownRemark(
                   limit: 1000,
-                  sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: { frontmatter: { template: { eq: "post" }, draft: { ne: true } } }
+                  sort: {frontmatter: {date: DESC}}
+                  filter: {frontmatter: {template: {eq: "post"}, draft: {ne: true}}}
                 ) {
                   edges {
                     node {
@@ -82,7 +82,7 @@ module.exports = {
                       fields {
                         slug
                       }
-                      fronmatter {
+                      frontmatter {
                         title
                         subtitle
                         date
@@ -102,16 +102,36 @@ module.exports = {
       }
     },
     {
+      resolve: "gatsby-plugin-sitemap",
+      options: {
+        query: `
+        {
+          allSitePage {
+            nodes {
+              path
+            }
+          }
+        }
+      `,
+        resolveSiteUrl: () => siteConfig.url,
+        resolvePages: ({
+          allSitePage: { nodes: allPages },
+        }) => {
+          return allPages.map(page => {
+            return { ...page, }
+          })
+        },
+        serialize: ({ path }) => {
+          return {
+            url: path,
+          }
+        },
+      },
+    },
+    {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
-          `gatsby-remark-relative-images`,
-          {
-            resolve: 'gatsby-remark-katex',
-            options: {
-              strict: 'ignore'
-            }
-          },
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -151,37 +171,6 @@ module.exports = {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
           trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-sitemap',
-      options: {
-        query: `
-          {
-            site {
-              siteMetadata {
-                siteUrl: url
-              }
-            }
-            allSitePage(
-              filter: {
-                path: { regex: "/^(?!/404/|/404.html|/dev-404-page/)/" }
-              }
-            ) {
-              edges {
-                node {
-                  path
-                }
-              }
-            }
-          }
-        `,
-        output: '/sitemap.xml',
-        serialize: ({ site, allSitePage }) => allSitePage.edges.map((edge) => ({
-          url: site.siteMetadata.siteUrl + edge.node.path,
-          changefreq: 'daily',
-          priority: 0.7
-        }))
       }
     },
     {

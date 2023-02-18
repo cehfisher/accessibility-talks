@@ -1,5 +1,6 @@
 // @flow strict
 import React from 'react';
+// This has been removed.
 import ReactDisqusComments from 'react-disqus-comments';
 import { useSiteMetadata } from '../../../hooks';
 

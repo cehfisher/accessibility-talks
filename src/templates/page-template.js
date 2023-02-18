@@ -54,7 +54,7 @@ export const query = graphql`
       }
     }
     current: allMarkdownRemark(
-      sort: { fields: [frontmatter___name], order: ASC }
+      sort: {frontmatter: {name: ASC}}
       filter: {
         frontmatter: {
           template: {eq: "member"},
@@ -74,7 +74,7 @@ export const query = graphql`
       }
     }
     past: allMarkdownRemark(
-      sort: { fields: [frontmatter___name], order: ASC }
+      sort: {frontmatter: {name: ASC}}
       filter: {
         frontmatter: {
           template: {eq: "member"},
