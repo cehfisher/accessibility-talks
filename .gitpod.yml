@@ -1,0 +1,4 @@
+image: gitpod/workspace-node:latest
+
+tasks:
+  - init: npm install && npm run develop
