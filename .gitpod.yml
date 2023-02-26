@@ -2,3 +2,13 @@ image: gitpod/workspace-node:latest
 
 tasks:
   - command: npm install && npm run develop
+
+ports:
+  - port: 8000
+    onOpen: open-preview
+    visibility: public
+
+github:
+  prebuilds:
+    # add a "Review in Gitpod" button to the pull request's description (defaults to false)
+    addBadge: true
