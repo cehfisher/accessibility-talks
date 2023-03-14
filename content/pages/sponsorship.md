@@ -92,12 +92,81 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
 </tbody>
 </table>
 
+All dollar amounts are listed in USD.
+
+Benefits are fulfilled based on donations made the month before each talk.
+
 ### Organizations: Contact us
 
 We prefer to work with organizations that have a positive relationship with the web community and align with our [mission and values](/pages/mission). Please contact us if you are interested in supporting our project.
 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
+
+## Give a One-Time or Recurring Donation
+
+<table class="centered">
+<tbody>
+<tr>
+  <td></td>
+  <td>Bronze<br/>$100/month<br/>($1,200/year)</td>
+  <td>Silver<br/>$250/month<br/>($3,000/year)</td>
+  <td>Gold<br/>$500/month<br/>($6,000/year)</td>
+</tr>
+<tr>
+  <td class="left">Organization listed as a donor on website</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Organization name on slide during each A11yTalk</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="left">Organization logo on slide during each A11yTalk</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Verbal recognition when the slide is displayed during each A11yTalk</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Social Media mention in group post after each A11yTalk</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+</tr>
+<tr>
+  <td class="left">Social Media mention in exclusive post after each A11yTalk</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Organization name and link on A11yTalks.com session pages</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Organization name and link in YouTube video description</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+</tr>
+</tbody>
+</table>
+
+_All dollar amounts are listed in USD._
+
+_Benefits are fulfilled based on donations made the month before each talk._
 
 ## Budget priorities
 
@@ -173,44 +242,51 @@ Operations include necessary technical items such as domain renewal, web hosting
 
 ### A11yTalks YouTube stats
 
-*Last updated 11/19/2022*
+*Last updated 03/13/2023*
 
 #### Lifetime
 
 <div class="cards">
   <div class="card">
-    <p class="large">64</p>
+    <p class="large">67</p>
     <p>Archived videos</p>
   </div>
   <div class="card">
-    <p class="large">2.18k</p>
+    <p class="large">2.37k</p>
     <p>YouTube subscribers</p>
   </div>
+</div>
+
+<h4 class="centered">Top 3 Videos</h4>
+<div class="cards">
+  <div class="card button"><a href="https://www.youtube.com/watch?v=dQVrfS74xyM">We Need More Accessibility Designers<br/>Anna E. Cook<br/>(A11yTalks - December 2021)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=bUuRwD8EBdY">Getting Started with Pa11y<br/>Jason Cortes<br/>(A11yTalks - October 2018)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=W5YAaLLBKhQ">The Many Lives of a Notification<br/>Sarah Higley<br/>(A11yTalks - July 2020)</a></div>
 </div>
 
 #### Last 90 days
 
 <div class="cards">
   <div class="card">
-    <p class="large">2.2k</p>
+    <p class="large">5.9k</p>
     <p>Views</p>
-    <p>(27% more than previous 90 days)</p>
+    <p>(156% more than previous 90 days)</p>
   </div>
   <div class="card">
-    <p class="large">288.3</p>
+    <p class="large">521.9</p>
     <p>Hours watched</p>
-    <p>(27% more than previous 90 days)</p>
+    <p>(83% more than previous 90 days)</p>
   </div>
   <div class="card">
-    <p class="large">84+</p>
+    <p class="large">+157</p>
     <p>New subscribers</p>
-    <p>(87% more than the previous 90 days)</p>
+    <p>(73% more than the previous 90 days)</p>
   </div>
 </div>
 
 <h4 class="centered">Top 3 Videos</h4>
 <div class="cards">
-  <div class="card button"><a href="https://youtu.be/gcK0ZtWQQQg">Cognitive Overloards<br/>Alex Tait<br/> (A11yTalks - October 2022)</a></div>
-  <div class="card button"><a href="https://youtu.be/lUxKZv0LgZ0">Representation Creates Reality<br/>Keely Cat-Wells & Dan Edge<br/>(A11yTalks - August 2022)</a></div>
-  <div class="card button"><a href="https://youtu.be/dQVrfS74xyM">Why We Need More Accessibility Designers<br/>Anna E. Cook<br/>(A11yTalks - December 2021)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=BXeixHLjZwM">Redesigning for Cognitive Ease<br/>Alyssa Panetta<br/>(A11yTalks - January 2023)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=WlNchpHa_ew">Web Accessibility in Action: Q&A with Agency Experts<br/>Panel Discussion<br/>(A11yTalks - February 2023)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=bVZ1hHctYtE">Accessibility With Dark Light Theme<br/>Sibu Stephen<br/>(A11yTalks - December 2022)</a></div>
 </div>
