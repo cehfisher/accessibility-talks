@@ -319,8 +319,11 @@ time.post__item-date {
   }
 }
 
-table.centered {
-  margin: 1rem auto;
+table {
+  border-spacing: 0;
+  &.centered {
+    margin: 1rem auto;
+  }
 }
 
 th {
@@ -328,6 +331,8 @@ th {
 }
 
 td {
+  border: 1px solid black;
+  padding: .25rem .5rem;
   text-align: center;
   &.left {
     text-align: left;
