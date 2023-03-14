@@ -28,13 +28,15 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
 
 <h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/a11ycat-club-36522">Join the A11yCat Club</a></h4>
 <table class="centered">
-<tbody>
+<thead>
 <tr>
-  <td></td>
-  <td>$5/month<br/>($60/year, $0.16/day)</td>
-  <td>$15/month<br/>($180/year, $0.50/day)</td>
-  <td>$25/month<br/>($300/year, $0.83/day)</td>
+  <th></th>
+  <th>$5/month<br/>($60/year, $0.16/day)</th>
+  <th>$15/month<br/>($180/year, $0.50/day)</th>
+  <th>$25/month<br/>($300/year, $0.83/day)</th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td class="left">Name listed as a donor on website</td>
   <td>x</td>
@@ -64,13 +66,15 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
 
 <h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/one-time-donation-47987">Give a One-Time Donation</a></h4>
 <table class="centered">
-<tbody>
+<thead>
 <tr>
-  <td></td>
-  <td>$25 donation</td>
-  <td>$100 donation</td>
-  <td>$250 donation</td>
+  <th></th>
+  <th>$25 donation</th>
+  <th>$100 donation</th>
+  <th>$250 donation</th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td class="left">Name listed as a donor on website</td>
   <td>x</td>
@@ -106,13 +110,15 @@ We prefer to work with organizations that have a positive relationship with the 
 ## Give a One-Time or Recurring Donation
 
 <table class="centered">
-<tbody>
+<thead>
 <tr>
-  <td></td>
-  <td>Bronze<br/>$100/month<br/>($1,200/year)</td>
-  <td>Silver<br/>$250/month<br/>($3,000/year)</td>
-  <td>Gold<br/>$500/month<br/>($6,000/year)</td>
+  <th></th>
+  <th>Bronze<br/>$100/month<br/>($1,200/year)</th>
+  <th>Silver<br/>$250/month<br/>($3,000/year)</th>
+  <th>Gold<br/>$500/month<br/>($6,000/year)</th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td class="left">Organization listed as a donor on website</td>
   <td>X</td>
