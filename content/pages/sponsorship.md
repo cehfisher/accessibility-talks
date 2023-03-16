@@ -62,6 +62,11 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
   <td>x</td>
 </tr>
 </tbody>
+<tfoot>
+  <tr>
+    <td class="left" colspan="4"><em>All dollar amounts are listed in USD.<br/>Benefits are fulfilled based on donations made the month before each talk.</em></td>
+  </tr>
+</tfoot>
 </table>
 
 <h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/one-time-donation-47987">Give a One-Time Donation</a></h4>
@@ -94,11 +99,12 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
   <td>x</td>
 </tr>
 </tbody>
+<tfoot>
+  <tr>
+    <td class="left" colspan="4"><em>All dollar amounts are listed in USD.<br/>Benefits are fulfilled based on donations made the month before each talk.</em></td>
+  </tr>
+</tfoot>
 </table>
-
-All dollar amounts are listed in USD.
-
-Benefits are fulfilled based on donations made the month before each talk.
 
 ### Organizations: Contact us
 
@@ -107,7 +113,7 @@ We prefer to work with organizations that have a positive relationship with the 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
 
-## Give a One-Time or Recurring Donation
+<h4 class="centered">Give a One-Time or Recurring Donation</h4>
 
 <table class="centered">
 <thead>
@@ -168,11 +174,14 @@ We prefer to work with organizations that have a positive relationship with the 
   <td>X</td>
 </tr>
 </tbody>
+<tfoot>
+  <tr>
+    <td class="left" colspan="4"><em>All dollar amounts are listed in USD.<br/>Benefits are fulfilled based on donations made the month before each talk.</em></td>
+  </tr>
+</tfoot>
 </table>
 
-_All dollar amounts are listed in USD._
 
-_Benefits are fulfilled based on donations made the month before each talk._
 
 ## Budget priorities
 
