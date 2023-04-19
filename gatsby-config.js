@@ -159,15 +159,6 @@ module.exports = {
       resolve: `gatsby-plugin-styled-components`,
     },
     {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: [siteConfig.googleAnalyticsId],
-        pluginConfig: {
-          head: true,
-        },
-      },
-    },
-    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
           trackingId: process.env.GOOGLE_ANALYTICS_TRACKING_ID || "none",
