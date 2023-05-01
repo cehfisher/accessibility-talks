@@ -181,8 +181,6 @@ We prefer to work with organizations that have a positive relationship with the 
 </tfoot>
 </table>
 
-
-
 ## Budget priorities
 
 <table class="centered">
@@ -257,7 +255,7 @@ Operations include necessary technical items such as domain renewal, web hosting
 
 ### A11yTalks YouTube stats
 
-*Last updated 03/13/2023*
+Last updated *03/13/2023*
 
 #### Lifetime
 
