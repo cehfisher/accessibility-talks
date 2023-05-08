@@ -1,7 +1,7 @@
 ---
 template: "member"
 draft: false
-current: true
+current: false
 slug: "vayia-malamidou"
 name: Vayia Malamidou
 title:
