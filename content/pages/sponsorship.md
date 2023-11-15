@@ -28,13 +28,15 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
 
 <h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/a11ycat-club-36522">Join the A11yCat Club</a></h4>
 <table class="centered">
-<tbody>
+<thead>
 <tr>
-  <td></td>
-  <td>$5/month<br/>($60/year, $0.16/day)</td>
-  <td>$15/month<br/>($180/year, $0.50/day)</td>
-  <td>$25/month<br/>($300/year, $0.83/day)</td>
+  <th></th>
+  <th>$5/month<br/>($60/year, $0.16/day)</th>
+  <th>$15/month<br/>($180/year, $0.50/day)</th>
+  <th>$25/month<br/>($300/year, $0.83/day)</th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td class="left">Name listed as a donor on website</td>
   <td>x</td>
@@ -60,17 +62,24 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
   <td>x</td>
 </tr>
 </tbody>
+<tfoot>
+  <tr>
+    <td class="left" colspan="4"><em>All dollar amounts are listed in USD.<br/>Benefits are fulfilled based on donations made the month before each talk.</em></td>
+  </tr>
+</tfoot>
 </table>
 
 <h4 class="centered"><a href="https://opencollective.com//a11ytalks/contribute/one-time-donation-47987">Give a One-Time Donation</a></h4>
 <table class="centered">
-<tbody>
+<thead>
 <tr>
-  <td></td>
-  <td>$25 donation</td>
-  <td>$100 donation</td>
-  <td>$250 donation</td>
+  <th></th>
+  <th>$25 donation</th>
+  <th>$100 donation</th>
+  <th>$250 donation</th>
 </tr>
+</thead>
+<tbody>
 <tr>
   <td class="left">Name listed as a donor on website</td>
   <td>x</td>
@@ -90,14 +99,87 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
   <td>x</td>
 </tr>
 </tbody>
+<tfoot>
+  <tr>
+    <td class="left" colspan="4"><em>All dollar amounts are listed in USD.<br/>Benefits are fulfilled based on donations made the month before each talk.</em></td>
+  </tr>
+</tfoot>
 </table>
 
 ### Organizations: Contact us
 
-We prefer to work with organizations that have a positive relationship with the web community and align with our [mission and values](/pages/mission). Please contact us if you are interested in supporting our project.
+We prioritize relationships with organizations and web communities that practice disability inclusion and align with our [mission and values](/pages/mission). Please contact us if you are interested in supporting our project.
 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
+
+<h4 class="centered">Give a One-Time or Recurring Donation</h4>
+
+<table class="centered">
+<thead>
+<tr>
+  <th></th>
+  <th>Bronze<br/>$100/month<br/>($1,200/year)</th>
+  <th>Silver<br/>$250/month<br/>($3,000/year)</th>
+  <th>Gold<br/>$500/month<br/>($6,000/year)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td class="left">Organization listed as a donor on website</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Organization name on slide during each A11yTalk</td>
+  <td>X</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td class="left">Organization logo on slide during each A11yTalk</td>
+  <td></td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Verbal recognition when the slide is displayed during each A11yTalk</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Social Media mention in group post after each A11yTalk</td>
+  <td></td>
+  <td>X</td>
+  <td></td>
+</tr>
+<tr>
+  <td class="left">Social Media mention in exclusive post after each A11yTalk</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Organization name and link on A11yTalks.com session pages</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+</tr>
+<tr>
+  <td class="left">Organization name and link in YouTube video description</td>
+  <td></td>
+  <td></td>
+  <td>X</td>
+</tr>
+</tbody>
+<tfoot>
+  <tr>
+    <td class="left" colspan="4"><em>All dollar amounts are listed in USD.<br/>Benefits are fulfilled based on donations made the month before each talk.</em></td>
+  </tr>
+</tfoot>
+</table>
 
 ## Budget priorities
 
@@ -173,44 +255,48 @@ Operations include necessary technical items such as domain renewal, web hosting
 
 ### A11yTalks YouTube stats
 
-*Last updated 11/19/2022*
+Last updated *11/14/2023*
 
 #### Lifetime
 
 <div class="cards">
   <div class="card">
-    <p class="large">64</p>
+    <p class="large">74</p>
     <p>Archived videos</p>
   </div>
   <div class="card">
-    <p class="large">2.18k</p>
+    <p class="large">2.63k</p>
     <p>YouTube subscribers</p>
   </div>
+</div>
+
+<h4 class="centered">Top 3 Videos</h4>
+<div class="cards">
+  <div class="card button"><a href="https://www.youtube.com/watch?v=dQVrfS74xyM">We Need More Accessibility Designers<br/>Anna E. Cook<br/>(A11yTalks - December 2021)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=bUuRwD8EBdY">Getting Started with Pa11y<br/>Jason Cortes<br/>(A11yTalks - October 2018)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=W5YAaLLBKhQ">The Many Lives of a Notification<br/>Sarah Higley<br/>(A11yTalks - July 2020)</a></div>
 </div>
 
 #### Last 90 days
 
 <div class="cards">
   <div class="card">
-    <p class="large">2.2k</p>
+    <p class="large">2.2K</p>
     <p>Views</p>
-    <p>(27% more than previous 90 days)</p>
   </div>
   <div class="card">
-    <p class="large">288.3</p>
+    <p class="large">342.9</p>
     <p>Hours watched</p>
-    <p>(27% more than previous 90 days)</p>
   </div>
   <div class="card">
-    <p class="large">84+</p>
+    <p class="large">+74</p>
     <p>New subscribers</p>
-    <p>(87% more than the previous 90 days)</p>
   </div>
 </div>
 
 <h4 class="centered">Top 3 Videos</h4>
 <div class="cards">
-  <div class="card button"><a href="https://youtu.be/gcK0ZtWQQQg">Cognitive Overloards<br/>Alex Tait<br/> (A11yTalks - October 2022)</a></div>
-  <div class="card button"><a href="https://youtu.be/lUxKZv0LgZ0">Representation Creates Reality<br/>Keely Cat-Wells & Dan Edge<br/>(A11yTalks - August 2022)</a></div>
-  <div class="card button"><a href="https://youtu.be/dQVrfS74xyM">Why We Need More Accessibility Designers<br/>Anna E. Cook<br/>(A11yTalks - December 2021)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=dvorQIM0yjA">Benchmark Accessibility & Usability Testing<br/>Jennifer Chadwick & Elana Chapman<br/>(A11yTalks - Aug 2023)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=VtqkmdNfb2M">The Human Side of Neurodivergence A Technologist's Journey<br/>Matthew Saunders<br/>(A11yTalks - Sep 2023)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=e-852PDWM9I">How to Achieve Accessibility Wins<br/>K-Leigh Marbury & Irene Dobbs<br/>(A11yTalks - Oct 2023)</a></div>
 </div>
