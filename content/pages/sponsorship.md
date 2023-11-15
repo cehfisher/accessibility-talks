@@ -255,17 +255,17 @@ Operations include necessary technical items such as domain renewal, web hosting
 
 ### A11yTalks YouTube stats
 
-Last updated *03/13/2023*
+Last updated *11/14/2023*
 
 #### Lifetime
 
 <div class="cards">
   <div class="card">
-    <p class="large">67</p>
+    <p class="large">74</p>
     <p>Archived videos</p>
   </div>
   <div class="card">
-    <p class="large">2.37k</p>
+    <p class="large">2.63k</p>
     <p>YouTube subscribers</p>
   </div>
 </div>
@@ -281,25 +281,22 @@ Last updated *03/13/2023*
 
 <div class="cards">
   <div class="card">
-    <p class="large">5.9k</p>
+    <p class="large">2.2K</p>
     <p>Views</p>
-    <p>(156% more than previous 90 days)</p>
   </div>
   <div class="card">
-    <p class="large">521.9</p>
+    <p class="large">342.9</p>
     <p>Hours watched</p>
-    <p>(83% more than previous 90 days)</p>
   </div>
   <div class="card">
-    <p class="large">+157</p>
+    <p class="large">+74</p>
     <p>New subscribers</p>
-    <p>(73% more than the previous 90 days)</p>
   </div>
 </div>
 
 <h4 class="centered">Top 3 Videos</h4>
 <div class="cards">
-  <div class="card button"><a href="https://www.youtube.com/watch?v=BXeixHLjZwM">Redesigning for Cognitive Ease<br/>Alyssa Panetta<br/>(A11yTalks - January 2023)</a></div>
-  <div class="card button"><a href="https://www.youtube.com/watch?v=WlNchpHa_ew">Web Accessibility in Action: Q&A with Agency Experts<br/>Panel Discussion<br/>(A11yTalks - February 2023)</a></div>
-  <div class="card button"><a href="https://www.youtube.com/watch?v=bVZ1hHctYtE">Accessibility With Dark Light Theme<br/>Sibu Stephen<br/>(A11yTalks - December 2022)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=dvorQIM0yjA">Benchmark Accessibility & Usability Testing<br/>Jennifer Chadwick & Elana Chapman<br/>(A11yTalks - Aug 2023)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=VtqkmdNfb2M">The Human Side of Neurodivergence A Technologist's Journey<br/>Matthew Saunders<br/>(A11yTalks - Sep 2023)</a></div>
+  <div class="card button"><a href="https://www.youtube.com/watch?v=e-852PDWM9I">How to Achieve Accessibility Wins<br/>K-Leigh Marbury & Irene Dobbs<br/>(A11yTalks - Oct 2023)</a></div>
 </div>
