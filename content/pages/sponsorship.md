@@ -108,7 +108,7 @@ To receive your A11yCat coaster and/or sticker, please follow the instructions o
 
 ### Organizations: Contact us
 
-We prefer to work with organizations that have a positive relationship with the web community and align with our [mission and values](/pages/mission). Please contact us if you are interested in supporting our project.
+We prioritize relationships with organizations and web communities that practice disability inclusion and align with our [mission and values](/pages/mission). Please contact us if you are interested in supporting our project.
 
 * Email: team [at] a11ytalks [dot] com
 * Twitter: [@A11yTalks](https://www.twitter.com/a11ytalks)
