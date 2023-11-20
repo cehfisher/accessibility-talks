@@ -20,6 +20,6 @@ social:
   - name: Github
     uri: 'https://www.github.com/cehfisher'
 
-bio: "Carie Fisher is an author, speaker, and developer with over 15 years of tech experience who is passionate about the intersection of front-end code and UX, digital accessibility, and diversity in technology. Carie works as a Senior Accessibility Consultant and Trainer at Deque Systems while also pursuing her Ph.D. in Human-Computer Interactions at Iowa State University."
+bio: "Carie Fisher is an experienced accessibility-focused author, speaker, trainer, and developer with over 15 years of technical expertise. As a freelance accessibility and UX consultant, she assists both individuals and companies in attaining their digital accessibility objectives. Currently pursuing a Ph.D. in Human-Computer Interactions at Iowa State University, Carie specializes in XR technology and recently collaborated with Google’s web.dev team to create the evergreen accessibility course Learn Accessibility."
 socialImage: "/media/carie-fisher-profile.png"
 ---
