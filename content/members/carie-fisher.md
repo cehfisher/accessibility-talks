@@ -4,7 +4,7 @@ draft: false
 current: true
 slug: "carie-fisher"
 name: Carie Fisher
-title: Senior Accessibility Consultant and Trainer
+title: Senior Accessibility Program Manager
 pronouns: "she/her"
 callout:
   - A11y Cats designer
