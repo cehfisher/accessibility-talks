@@ -176,7 +176,6 @@ module.exports = {
         icon: 'src/logo.png'
       },
     },
-    'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     {
