@@ -7,6 +7,10 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ## Development
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
+For quick browser-based development, open this project in Gitpod. It will automatically run the first 2 commands:
+
 * run `npm install`
 * run `npm run develop` for a preview of the site.
 * Fix all the things!
