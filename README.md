@@ -1,5 +1,7 @@
 # Accessibility Talks
 
+** This project has recently been moved to [https://github.com/a11ytalks](https://github.com/a11ytalks) **
+
 Github repo for organizing speakers/resources for Accessibility Talks
 
 [Link to YouTube channel](https://www.youtube.com/c/AccessibilityTalks)
